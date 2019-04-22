@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ICT_Engine;
+
+
+namespace ICT_Engine
+{
+    public class GetPath : MonoBehaviour
+    {
+
+        //public GameObject[] allPaths;
+
+        //// Use this for initialization
+        //void Start()
+        //{
+        //    int num = Random.Range(0, allPaths.Length);
+        //    transform.position = allPaths[num].transform.position;
+        //    MoveOnPathScript yourPath = GetComponent<MoveOnPathScript>();
+        //    yourPath.pathName = allPaths[num].name;
+        //}
+
+        //// Update is called once per frame
+        //void Update()
+        //{
+
+        //}
+    }
+}
