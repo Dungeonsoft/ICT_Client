@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 Type=AskingControl)" Category="CodeSchema_Class" Bounds="0,0,137.546666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="AskingControl" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="AskingControl" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/FAT_Control.cs StartLineNumber=6 StartCharacterOffset=13 EndLineNumber=6 EndCharacterOffset=26)" />
+    <Node Id="(@1 Type=CharcterWideController)" Category="CodeSchema_Class" Bounds="0,0,188.45,25" CodeSchemaProperty_IsPublic="True" CommonLabel="CharcterWideController" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="CharcterWideController" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/CharcterWideController.cs StartLineNumber=4 StartCharacterOffset=13 EndLineNumber=4 EndCharacterOffset=35)" />
+    <Node Id="(@1 Type=Del)" Category="CodeSchema_Delegate" Bounds="0,0,73.9833333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Del" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Delegate" Label="Del" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/FAT_Control.cs StartLineNumber=12 StartCharacterOffset=21 EndLineNumber=12 EndCharacterOffset=24)" />
+    <Node Id="(@1 Type=FAT_Control)" Category="CodeSchema_Class" Bounds="0,0,126.663333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="FAT_Control" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="FAT_Control" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/FAT_Control.cs StartLineNumber=14 StartCharacterOffset=13 EndLineNumber=14 EndCharacterOffset=24)" />
+    <Node Id="(@1 Type=GetDataFromServer)" Category="CodeSchema_Class" Bounds="0,0,166.876666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="GetDataFromServer" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="GetDataFromServer" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/AddFunctions.cs StartLineNumber=56 StartCharacterOffset=13 EndLineNumber=56 EndCharacterOffset=30)" />
+    <Node Id="(@1 Type=MainController)" Category="CodeSchema_Class" Bounds="0,0,142.02,25" CodeSchemaProperty_IsPublic="True" CommonLabel="MainController" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="MainController" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/MainController.cs StartLineNumber=5 StartCharacterOffset=13 EndLineNumber=5 EndCharacterOffset=27)" />
+    <Node Id="(@1 Type=MakeArea)" Category="CodeSchema_Class" Bounds="0,0,115.543333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="MakeArea" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="MakeArea" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/MakeArea.cs StartLineNumber=5 StartCharacterOffset=13 EndLineNumber=5 EndCharacterOffset=21)" />
+    <Node Id="(@1 Type=NextCharcterMotion)" Category="CodeSchema_Enum" Bounds="0,0,167.246666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="NextCharcterMotion" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="NextCharcterMotion" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/AddFunctions.cs StartLineNumber=12 StartCharacterOffset=12 EndLineNumber=12 EndCharacterOffset=30)" />
+    <Node Id="(@1 Type=PointGizmo)" Category="CodeSchema_Class" Bounds="0,0,123.733333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PointGizmo" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PointGizmo" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/PointGizmo.cs StartLineNumber=4 StartCharacterOffset=13 EndLineNumber=4 EndCharacterOffset=23)" />
+    <Node Id="(@1 Type=PointerMaker)" Category="CodeSchema_Class" Bounds="0,0,133.713333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PointerMaker" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PointerMaker" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/PointerMaker.cs StartLineNumber=4 StartCharacterOffset=13 EndLineNumber=4 EndCharacterOffset=25)" />
+    <Node Id="(@1 Type=PointerProperty)" Category="CodeSchema_Class" Bounds="0,0,145.94,25" CodeSchemaProperty_IsPublic="True" CommonLabel="PointerProperty" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="PointerProperty" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/PointerProperty.cs StartLineNumber=5 StartCharacterOffset=13 EndLineNumber=5 EndCharacterOffset=28)" />
+    <Node Id="(@1 Type=PointerStyle)" Category="CodeSchema_Enum" Bounds="0,0,121.676666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="PointerStyle" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Enum" Label="PointerStyle" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/AddFunctions.cs StartLineNumber=4 StartCharacterOffset=12 EndLineNumber=4 EndCharacterOffset=24)" />
+    <Node Id="(@1 Type=RoleEvent)" Category="CodeSchema_Class" Bounds="0,0,114.436666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="RoleEvent" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="RoleEvent" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/RoleEvent.cs StartLineNumber=4 StartCharacterOffset=13 EndLineNumber=4 EndCharacterOffset=22)" />
+    <Node Id="(@1 Type=SetActionPointerInfoForCharacter)" Category="CodeSchema_Class" Bounds="0,0,241.94,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SetActionPointerInfoForCharacter" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SetActionPointerInfoForCharacter" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/AddFunctions.cs StartLineNumber=64 StartCharacterOffset=13 EndLineNumber=64 EndCharacterOffset=45)" />
+    <Node Id="(@1 Type=TestRayScript)" Category="CodeSchema_Class" Bounds="0,0,133.363333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="TestRayScript" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="CodeSchema_Class" Label="TestRayScript" SourceLocation="(Assembly=file:///C:/ICT/ProJectWorks/ICT_VR/Assets/Scripts/TestRayScript.cs StartLineNumber=4 StartCharacterOffset=13 EndLineNumber=4 EndCharacterOffset=26)" />
+    <Node Id="@2" Category="CodeSchema_Assembly" CommonLabel="Assembly-CSharp" DelayedChildNodesState="Incomplete" Group="Expanded" Label="Assembly-CSharp.dll" />
+    <Node Id="@3" Category="CodeSchema_Namespace" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="&lt;global namespace&gt;" DelayedChildNodesState="Incomplete" Group="Expanded" Label="" />
+  </Nodes>
+  <Links>
+    <Link Source="@2" Target="@3" Category="Contains" FetchingParent="@2" />
+    <Link Source="@3" Target="(@1 Type=AskingControl)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=CharcterWideController)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=Del)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=FAT_Control)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=GetDataFromServer)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=MainController)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=MakeArea)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=NextCharcterMotion)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=PointGizmo)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=PointerMaker)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=PointerProperty)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=PointerStyle)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=RoleEvent)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=SetActionPointerInfoForCharacter)" Category="Contains" FetchingParent="@3" />
+    <Link Source="@3" Target="(@1 Type=TestRayScript)" Category="Contains" FetchingParent="@3" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="어셈블리" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="어셈블리" />
+    <Category Id="CodeSchema_Class" Label="클래스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="클래스" />
+    <Category Id="CodeSchema_Delegate" Label="대리자" BasedOn="CodeSchema_Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Delegate" NavigationActionLabel="대리자" />
+    <Category Id="CodeSchema_Enum" Label="열거형" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" NavigationActionLabel="열거형" />
+    <Category Id="CodeSchema_Namespace" Label="네임스페이스" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="네임스페이스" />
+    <Category Id="CodeSchema_Type" Label="형식" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="형식" />
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="File" Label="파일" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="파일" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Final" Description="멤버가 'Final'이어서 파생될 수 없음을 나타내는 플래그입니다." DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Public" Description="범위가 Public임을 나타내는 플래그입니다." DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="정적" Description="메서드가 정적 멤버임을 나타내는 플래그입니다." DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="가상화된 데이터" Description="true인 경우 그래프에는 그래프에서 실제 작성되지 않은 가상화된 노드/링크에 대한 데이터를 나타내는 노드 및 링크가 포함될 수 있습니다." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="지연된 자식 노드 상태" Description="지연된 자식 노드 상태가 지정되어 있지 않은 경우 Unspecified, 그룹에 아직 그래프로 페치하지 않은 자식 노드가 있는 경우 NotFetched, 그룹의 지연된 자식 노드를 이미 모두 페치한 경우에는 Fetched입니다." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="아이콘" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="시작 줄 번호" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="어셈블리" ValueType="Uri" />
+    <Name Id="Namespace" Label="네임스페이스" ValueType="System.String" />
+    <Name Id="Type" Label="형식" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(5c885cbd-da37-97ce-0ed7-fa4fe6f7f5b1.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Id="(@1 Namespace=&quot;&lt;global namespace&gt;&quot;)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="결과" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="테스트 프로젝트" ValueLabel="테스트 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="웹 프로젝트" ValueLabel="웹 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 스토어 프로젝트" ValueLabel="Windows 스토어 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Phone 프로젝트" ValueLabel="Phone 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="이식 가능한 라이브러리" ValueLabel="이식 가능한 라이브러리">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 프로젝트" ValueLabel="WPF 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 프로젝트" ValueLabel="VSIX 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="모델링 프로젝트" ValueLabel="모델링 프로젝트">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="어셈블리" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="네임스페이스" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="인터페이스" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="구조체" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="열거형" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="대리자" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="클래스" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="속성" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="메서드" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="이벤트" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="필드" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 매개 변수" ValueLabel="범주 있음">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="지역 변수" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="외부" ValueLabel="범주 있음">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="상속 원본" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="구현" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="호출" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="함수 포인터" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="필드 읽기" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="필드 쓰기" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="반환" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="참조" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="특성 사용" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="솔루션 폴더" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="프로젝트 참조" ValueLabel="프로젝트 참조">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="외부 참조" ValueLabel="외부 참조">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="5c885cbd-da37-97ce-0ed7-fa4fe6f7f5b1.OutputPathUri" Value="file:///C:/ICT/ProJectWorks/ICT_VR/Temp/UnityVS_bin/Debug/Assembly-CSharp.dll" />
+  </Paths>
+</DirectedGraph>
