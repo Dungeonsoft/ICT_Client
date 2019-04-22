@@ -1,0 +1,44 @@
+﻿ActionNumber,TextBubble2Role,TextBubble2Text,TextBubble2Audio
+1,Captain,Now we will commence the fire-fighting drill. Press the emergency signal and announce to all crew.,act_001_000_001_001_000_001
+3,Captain,"Second officer, give hand over to third officer and move to muster station.",act_001_000_003_001_000_001
+4,Captain,"Chief engineer, Stop the E/R ventilation",act_001_000_004_001_000_001
+4,,,
+4,Captain,"Chief engineer, Close the fuel supply V/V to stop engine, and operate emergency generator and emergency fire pump.",act_001_000_004_001_002_001
+5,Captain,"Busan VTS, this is Vessel ""A"". Location Lat.34-10.1N Longi.129-10.2E We have fire in engine room. We request assistance.",act_001_000_005_001_000_001
+5,,,
+5,Captain,"Designated Person, this is Vessel ""A"". Location Lat.34-10.1N Longi.129-10.2E We have fire in engine room. We request assistance.",act_001_000_005_001_002_001
+6,Captain,"third officer, Give safety notice to vessels around us by VHF CH.16 and raise two black ball on the mast, and keep record of emergency response note. ",act_001_000_006_001_000_001
+7,Captain,"Chief officer, take the roll call.",act_001_000_007_001_000_001
+7,Chief officer,"Muster Station report, Total crew 17, navigational duty 3, now 14, sir.",act_001_000_007_001_001_001
+7,Captain,Rodger. Now we have medium size fire in engine room. Prepare the two personnel with fireman's outfit.,act_001_000_007_001_002_001
+7,Chief officer,"Copy, sir. We will prepare the two personnel with fireman's outfit.",act_001_000_007_001_003_001
+7,Captain,"Hose team, arrange the fire hose on scene, and cooling team, arrange the fire hose on both side of engine room. Hose team, report me when you are ready with form applicator.",act_001_000_007_001_004_001
+8,Captain,"Chief officer, check the fire-fighting team before entry.",act_001_000_008_001_000_001
+8,Chief officer,"Rodger, I will report the condition of fire-fighting team.",act_001_000_008_001_001_001
+8,,,
+8,Chief officer,"Pressure of breathing apparatus 30Mpa, By pass valve in good operation, Alarm test.",act_001_000_008_001_003_001
+8,,,
+8,Chief officer,"Mask in good condition, explosion proof lantern in good condition.",act_001_000_008_001_005_001
+8,,,
+8,Chief officer,"Now time 14:10, ABA, ABB are ready to go for fire-fighting. ",act_001_000_008_001_007_001
+9,Captain,"Medical response team, move the patient to a safe place and report the condition.",act_001_000_009_001_000_001
+9,Second officer,"Rodger, sir. We will move OLR-C to a safe place and report the condition.",act_001_000_009_001_001_001
+9,,,
+9,Second officer,OLR-C ankle injury is not serious and is sitting in a safe place after treating wounds.,act_001_000_009_001_003_001
+10,Captain,All crew escape from engine room. Chief officer take the roll call when fixed CO2 fire-fighting system is ready.,act_001_000_010_001_000_001
+10,Chief officer,"Rodger, All crew escape from engine room, prepare for fixed CO2 fire-fighting system.",act_001_000_010_001_001_001
+11,Captain,"Chief engineer, Check the E/R ventilation be closed again.",act_001_000_011_001_000_001
+11,Chief engineer,"Rodger, I confirmed to shut all ventilation and ducts to engine room.",act_001_000_011_001_001_001
+12,Captain.,Operate the fixed CO2 fire-fighting system!,act_001_000_012_001_000_001
+12,Chief engineer,"Rodger, the fixed CO2 fire-fighting system was released in engine room.",act_001_000_012_001_001_001
+13,Captain,"Fire hose teams keep cooling the fire zone, continuously.",act_001_000_013_001_000_001
+13,Chief officer,"Rodger, the cooling team were arranged in port and stb'd side of engine room.",act_001_000_013_001_001_001
+16,Captain,"Busan VTS, this is Vessel ""A"". Location Lat.34-10.1N Longi.129-10.2E",act_001_000_016_001_000_001
+16,,,
+16,Captain,"We failed to extinguish the fire in engine room. Now abandon ship, we request assistance.",act_001_000_016_001_002_001
+16,,,
+16,Captain,"Designated Person, this is Vessel ""A"". Location Lat.34-10.1N Longi.129-10.2E We failed to extinguish the fire in engine room. Now abandon ship, we request assistance.",act_001_000_016_001_004_001
+16,,,
+16,Captain,"VHF CH.16) MAYDAY / MAYDAY / MAYDAY  THIS IS VESSEL A, POSITION 34-10N 129-10E",act_001_000_016_001_006_001
+16,,,
+16,Captain,WE DECIDED TO ABANDON SHIP. PLEASE RESCUE US.,act_001_000_016_001_008_001

@@ -1,0 +1,9 @@
+﻿ActionNumber	FChMotion	WaitTime01	TextBubble1	Question	Answers	Correct	TextBubble2	NChMotion	StandingPosition	MovePath	InAction1	InAction2	IsMeA	IsMeB	IsMeC	IsWaterOn	IsWaterOff	TagName	video	ActionEnum
+0	Idle_01	1	"""false"""				"""false"""	Idle_01	ThirdOfficer_Point001				"""false"""	"""false"""	"""false"""	"""false"""	"""false"""	ThirdOfficer		a00
+1	Idle_01	2	"""true"""			2	"""false"""	Walking_01		ThirdOfficer_Path001			"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a01
+2	Idle_01	2	"""true"""	응급 조치 사항이 아닌 것은?	"산소 소생기, 진통제, 담요준비|환자 혈압, 맥박, 체온을 시간별로 기록|환자 마취"	2	"""false"""	Idle_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a02
+3	Idle_01	2	"""true"""	환자 이송에 필요하지 않은 물건은?	선박 항해일지|환자 선원 수첩|환자 의료 기록	0	"""true"""	Idle_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a03
+4	Idle_01	2	"""true"""	헬리콥터 운용에 필요한 비상 공구 및 설비가 아닌 것은?	내화성 망치|조정 가능한 렌치|볼트 절단기(60cm)	0	"""false"""	Idle_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a04
+5	Idle_01	2	"""true"""				"""true"""	Idle_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a05
+6	Idle_01	2	"""false"""				"""false"""	Walking_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a06
+7	Idle_01	2	"""true"""				"""false"""	Idle_01					"""false"""	"""false"""	"""false"""	"""false"""	"""false"""			a07

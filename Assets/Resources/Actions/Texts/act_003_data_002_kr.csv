@@ -1,0 +1,7 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,TextBubble1Audio,Question,Answers,Correct,TextBubble2,TextBubble2Audio,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff
+0,Idle_01,2,"||갑판수A|당직 2항사님, NO.5(P) BALLAST TANK 점검 작업중이던 갑판장이 14시 의식을 잃고 쓰러졌습니다.|2항사|알겠습니다. 선장님께 보고 드리겠습니다.",,"호흡이 정지되어, 뇌사가 진행되기 시작하는 시간은?",2분|4분|6분 ,1,,,Idle_01,Pointer01,,,,"""false""","""false""","""false""","""false""","""false"""
+1,Idle_01,2,"2항사|선장님, NO.5(P) BALLAST TANK 점검 작업중이던 갑판장이 의식을 잃고 쓰러졌습니다|선장|갑판장의 NO.5(P) BALLAST TANK 진입시간은?|2항사|13시50분입니다.",,,,,,,Idle_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+2,Idle_01,2,"||선장|비상벨을 울리고 밀폐구역 진입 구조 훈련 방송 바랍니다|2항사|DRILL DRILL DRILL, ENCLOSED SPACE RESCUE DRILL, RESCUE THE BOSUN IN NO.5(P) BALLAST SPACE ON DECK",,비상소집신호는 다음 중 어떤 것인가?,단음5회|단음7회 장음1회|장음3회,1,,,Idle_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+3,Idle_01,2,"||선장|2항사는 비상대응 상황일지 작성 바랍니다|2항사|네, 비상대응 상황일지 작성하겠습니다.",,,,,,,Idle_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+4,Idle_01,2,"||선장|2항사는 현재 본선이 항해중이므로, 안전한 항해가 지속될 수 있도록 당직 업무 수행 바랍니다.|2항사|네, 알겠습니다.",,,,,,,Walking_01,,O2nd_Cap,,,"""false""","""false""","""false""","""false""","""false"""
+5,Idle_01,2,||선장|밀폐구역 구조훈련 상황 종료합니다. 훈련기록 정리해서 보고 바랍니다.,,밀폐구역 구조훈련을 시행해야 하는 주기는?,매월 시행|2개월 주기 시행|3개월 주기 시행,1,,,Idle_01,,,,,"""false""","""false""","""true""","""false""","""false"""

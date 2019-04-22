@@ -1,0 +1,22 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,1,"""false""",,,,"""false""",Idle_01,Cap_Point001,,,,"""false""","""false""","""false""","""false""","""false""",Captain,,a00
+1,Idle_01,2,"""true""",환자 병명 확인을 위한 방법이 아닌 것은?,"증상에 따른 추정 및 임의 처방|""INTERNATION MEDICAL GUIDE FOR SHIPS""서적 참고|해양 긴급 신고(112)에 연락하여 자문",0,"""false""",Walking_01,,Cap_Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""true""",보고와 함께 추가 요청해야 하는 사항은?,치료 비용|전문의의 의견|환자 가족 연락처,1,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""true""",헬리콥터 수배를 위해 연락해야 하는 곳은?,항만국|RESCUE COORDINATION CENTER(RCC)|해양경찰,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""true""",상황시 비상벨의 종류는?,"장음 3회|단음 5회|단음 7회, 장음 1회",2,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""false""",의료관리자의 업무(선원법 시행규칙 제52조)가 아닌 것은?,"선원의 건강검진|의료기구, 의약품 기타 위생용품 및 의료 서적 정비 점검|선내의료관리에 관한 기록의 작성 및 관리",0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""true""",응급 조치 사항이 아닌 것은?,"산소 소생기, 진통제, 담요준비|환자 혈압, 맥박, 체온을 시간별로 기록|환자 마취",2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a06
+7,Idle_01,2,"""true""",환자 이송에 필요하지 않은 물건은?,선박 항해일지|환자 선원 수첩|환자 의료 기록,0,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a07
+8,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a08
+9,Idle_01,2,"""true""",헬리콥터와 랑데부할 때 준비해야할 물품이 아닌 것은?,"풍향풍속계(Wind sock)|승정용 사다리(Embarkation ladder)|방화복, 소화호스",1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a09
+10,Idle_01,2,"""true""",환자 이송 시 Harness를 사용하는 이유는?,환자가 의식이 없기 때문에|본선에 헬리콥터 착지가 불가하기 때문에|Stretcher와 동일한 장비,1,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a10
+11,Idle_01,2,"""false""",헬리콥터 운용에 필요한 비상 공구 및 설비가 아닌 것은?,내화성 망치|조정 가능한 렌치|볼트 절단기(60cm),0,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a11
+12,Idle_01,2,"""true""",선박 조종에 고려해야 할 사항이 아닌 것은?,"헬리콥터의 접근 방향|풍향, 풍속|헬리콥터의 종류",2,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a12
+13,Idle_01,2,"""true""",안전속력(Safety Speed)의 정의는?,타효가 있는 최저 속력|10노트 이하|Full speed 항해를 안전하게 계속 하는 것,0,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a13
+14,Idle_01,2,"""true""",환자 인양 수신호(Winch Up) 방법은?,"왼손은 주먹을 쥐며 전방을 향하고, 오른손을 손바닥이 위를 향하도록 올림|양팔을 머리 위로 올렸다 내리는 동작 반복|엄지손가락을 위로 향해 올림",0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a14
+15,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a15
+16,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a16
+17,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a17
+18,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a18
+19,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a19
+20,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a20

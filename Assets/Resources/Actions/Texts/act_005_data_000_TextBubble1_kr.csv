@@ -1,0 +1,50 @@
+ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+0,Emergency Alarm,"DRILL DRILL DRILL FIRE IN E/R Boiler, B Class Fire Medium Size. ALL STATION ALL S/B at Muster Station",act_005_000_000_000_000_001
+5,,,
+5,Captain.,"Chief engineer, Stop the E/R ventilation. Close the fuel supply V/V to stop engine, and operate emergency generator and emergency fire pump.",act_005_000_005_000_001_001
+5,Chief engineer,Rodger.,act_005_000_005_000_002_001
+6,Chief engineer,"First engineer, Stop the electricity and fuel supply valve to engine room and come to muster station.",act_005_000_006_000_000_001
+7,Chief engineer,"Second engineer, Operate the emergency generator and come to muster station.",act_005_000_007_000_000_001
+8,Chief engineer,"3/E, Operate the emergency fire pump and come to muster station.",act_005_000_008_000_000_001
+9,Chief engineer,"1/OLR close the engine room sky light, OLR-A close the fire damper, OLR-B close the funnel damper, OLR-C close the accommodation ventilator, and come to muster station.",act_005_000_009_000_000_001
+10,Chief engineer,"Captain, all ventilators were closed. Fuel valve closed and engine stopped. Emergency generator and emergency fire pump were operated.|",act_005_000_010_000_000_001
+10,Captain,Rodger.,act_005_000_010_000_001_001
+11,,,
+11,Chief officer,"Captain, How do you read me?",act_005_000_011_000_001_001
+11,Captain,"Good, I read you well.",
+11,Chief officer,"Muster Station report, Total crew 17, navigational duty 3, now 14, sir.",act_005_000_011_000_003_001
+12,,,
+12,Captain,Now we have medium size fire in engine room. Prepare the two personnel with fireman's outfit.,act_005_000_012_000_001_001
+12,,,
+12,Chief officer,"Copy, sir. We will prepare the two personnel with fireman's outfit.",act_005_000_012_000_003_001
+13,,,
+13,Captain.,"Hose team, arrange the fire hose on scene, and cooling team, arrange the fire hose on both side of engine room. Hose team, report me when you are ready with form applicator.",act_005_000_013_000_001_001
+13,,,
+13,Chief officer,Rodger copy.,act_005_000_013_000_003_001
+14,,,
+14,Chief officer,"Chief engineer, check the operation condition of emergency generator and emergency fire pump.",act_005_000_014_000_001_001
+14,Chief engineer,Rodger copy.,act_005_000_014_000_002_001
+15,,,
+15,Ableseaman-A,"Now engine room fire is too big, cannot control.",act_005_000_015_000_001_001
+15,,,
+15,Chief officer,"Captain., Now engine room fire is out of control.",act_005_000_015_000_003_001
+15,,,
+15,Captain,All crew escape from engine room. Chief officer take the roll call when fixed CO2 fire-fighting system is ready.,act_005_000_015_000_005_001
+15,,,
+15,Chief officer,"Rodger, All crew escape from engine room, prepare for fixed CO2 fire-fighting system.",act_005_000_015_000_007_001
+16,,,
+16,Chief officer,"Muster Station report, Total crew 17, navigational duty 3, now 14, sir.|||",act_005_000_016_000_001_001
+16,,,
+16,Captain,"Chief engineer, Check the E/R ventilation be closed again.",act_005_000_016_000_003_001
+16,Chief engineer,"Rodger, I confirmed to shut all ventilation and ducts to engine room.",act_005_000_016_000_004_001
+16,Captain,Operate the fixed CO2 fire-fighting system!,act_005_000_016_000_005_001
+16,Chief engineer,"Rodger, the fixed CO2 fire-fighting system was released in engine room.",act_005_000_016_000_006_001
+17,,,
+17,Captain.,Now I suppose one hour has passed since we release the fixed CO2 fire-fighting system. It's time to check engine room fire condition.,act_005_000_017_000_001_001
+17,Chief engineer|,Rodger.,act_005_000_017_000_002_001
+18,,,
+18,Ableseaman-A,"Now engine room fire is too big, cannot control.",act_005_000_018_000_001_001
+18,,,
+18,Chief officer,"Captain., Now engine room fire is out of control.",act_005_000_018_000_003_001
+19,,,
+19,Captain.,All crew prepare to abandon ship drill.,act_005_000_019_000_001_001

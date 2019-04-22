@@ -1,0 +1,35 @@
+﻿ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+1,Second Officer,DRILL DRILL DRILL HELICOPTER OPERATION DRILL. THIRD ENGINEER SHOULD BE TRANSFERRED TO HOSPITAL. ALL CREW GATER AT MUSTER STATION.,act_002_000_001_000_000_001
+2,Captain,"Chief officer, third engineer is considered to be acute appendicitis. Accordingly, prepare for emergency convoy with helicopter. Until the helicopter arrives, third officer and third engineer will be waiting in third engineer's room.",act_002_000_001_000_000_001
+2,Chief Officer,Rodger.,act_002_000_001_000_000_001
+6,Captain,Helicopter operation drill!,act_002_000_001_000_000_001
+7,Chief Officer,"Go to the No.4 cargo hold starboard side, which is the helicopter rendezvous location, with the items held at the time of the gathering.",act_002_000_001_000_000_001
+7,Bosun,Rodger.,act_002_000_001_000_000_001
+7,Ableseaman A,Rodger.,act_002_000_001_000_000_001
+7,Ableseaman B,Rodger.,act_002_000_001_000_000_001
+8,Chief Officer,"Bosun, in case of emergency, prepare a rescue boat for rescue operation. Please stand by in where you are able to launch rescue.",act_002_000_001_000_000_001
+8,Chief Officer,"Ableseaman A, Please install the wind sock. Afater completion, please go back to muster station.",act_002_000_001_000_000_001
+8,Chief Officer,"The rest of the personnel put the items at rendezvous position, and return to the muster station stand by. Also prepare the fireman's outfit for emergency use.",act_002_000_001_000_000_001
+8,Bosun,Rodger.,act_002_000_001_000_000_001
+8,Ableseaman A,Rodger.,act_002_000_001_000_000_001
+8,Ableseaman B,Rodger.,act_002_000_001_000_000_001
+9,Ableseaman A,"Chief officer, the wind sock has been installed.",act_002_000_001_000_000_001
+9,Chief Officer,Rodger. Go to the muster station and wait.,act_002_000_001_000_000_001
+10,Bosun,"Chief officer, the rescue boat is emergency ready for use.",act_002_000_001_000_000_001
+10,Chief Officer,Rodger. Go to muster station and wait.,act_002_000_001_000_000_001
+11,Chief Officer,"Captain, the helicopter operation is ready on deck.",act_002_000_001_000_000_001
+11,Captain,"Chief officer, now I will send the patient in the helicopter arrival time.",act_002_000_001_000_000_001
+11,Chief Officer,Rodger.,act_002_000_001_000_000_001
+12,Captain,"Chief officer, patient third engineer and third officer are going to the rendezvous location. So pay attention to helicopter-guide and help lifting patient.",act_002_000_001_000_000_001
+12,Chief Officer,Rodger.,act_002_000_001_000_000_001
+13,Chief Officer,"Third officer, let third engineer wear harness.",act_002_000_001_000_000_001
+13,Third Officer,Rodger.,act_002_000_001_000_000_001
+14,Chief Officer,"Captain, third engineer is in harness and his luggage bag is ready.",act_002_000_001_000_000_001
+14,Captain,Instruct third engineer to be aware the precautions of harness equipment. Be sure to check him for safety before boarding the helicopter.,act_002_000_001_000_000_001
+14,Chief Officer,Rodger.,act_002_000_001_000_000_001
+20,Chief Officer,"Captain, the patient boarded safely in the helicopter.",act_002_000_001_000_000_001
+20,Captain,Rodger. Be careful of overboard safety accident during deck work.,act_002_000_001_000_000_001
+21,Captain,"Chief officer, make arrangement of training equipment and dismiss.",act_002_000_001_000_000_001
+21,Chief Officer,Rodger.,act_002_000_001_000_000_001
+22,Captain,"Chief engineer, now increase engine RPM to Sea Speed and keep normal condition.",act_002_000_001_000_000_001
+22,Chief Officer,Rodger. I will adjust engine department duty table without third engineer.,act_002_000_001_000_000_001

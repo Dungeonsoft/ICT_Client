@@ -1,0 +1,40 @@
+﻿ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+0,Emergency Alarm,"DRILL DRILL DRILL FIRE IN E/R Boiler, B Class Fire Medium Size. ALL STATION ALL S/B at Muster Station",act_002_000_000_000_000_001
+5,Chief officer,"Captain., How do you read me?",act_002_000_005_000_000_001
+5,Captain,"Good, I read you well",act_002_000_005_000_001_001
+5,Chief officer,"Muster Station report, Total crew 17, navigational duty 3, now 14, sir.",act_002_000_005_000_002_001
+6,,,
+6,Captain,Now we have medium size fire in engine room. Prepare the two personnel with fireman's outfit.,act_002_000_006_000_001_001
+6,Chief officer,"Copy, sir. We will prepare the two personnel with fireman's outfit.",act_002_000_006_000_002_001
+7,,,
+7,Captain.,"Hose team, arrange the fire hose on scene, and cooling team, arrange the fire hose on both side of engine room. Hose team, report me when you are ready with form applicator.",act_002_000_007_000_001_001
+7,Chief officer,Rodger.,act_002_000_007_000_002_001
+8,Chief officer,"Captain, the two personnel with fireman's outfit are prepared.",act_002_000_008_000_000_001
+8,,,
+8,Chief officer,"Pressure of breathing apparatus 30Mpa, By pass valve in good operation, Alarm test. Mask in good condition, explosion proof lantern in good condition. Now time 14:10, ABA, ABB are ready to go for fire-fighting.",act_002_000_008_000_002_001
+8,Captain,"2 crew with fireman's outfit, now enter into engine room to extinguish fire!",act_002_000_008_000_003_001
+8,Chief officer,"Rodger, we will enter through entrance of steering gear room.",act_002_000_008_000_004_001
+9,Chief officer,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. We request medical response team.",act_002_000_009_000_000_001
+9,Captain.,"Medical response team, move the patient to a safe place and report the condition",act_002_000_009_000_001_001
+10,,,
+10,Ableseaman-A,"Now engine room fire is too big, cannot control",act_002_000_010_000_001_001
+10,Chief officer,"Captain, Now engine room fire is out of control|",act_002_000_010_000_002_001
+10,Captain.,All crew escape from engine room. Chief officer take the roll call when fixed CO2 fire-fighting system is ready,act_002_000_010_000_003_001
+11,Chief officer,"Muster Station report, Total crew 17, navigational duty 3, now 14, sir.",act_002_000_011_000_000_001
+11,Captain.,"Chief engineer, Check the E/R ventilation be closed again.",act_002_000_011_000_001_001
+11,,,
+11,Chief engineer,"Rodger, I confirmed to shut all ventilation and ducts to engine room.",act_002_000_011_000_003_001
+11,,,
+11,Captain.,Operate the fixed CO2 fire-fighting system!,act_002_000_011_000_005_001
+11,,,
+11,Chief engineer,"Rodger, the fixed CO2 fire-fighting system was released in engine room.",act_002_000_011_000_007_001
+12,,,
+12,Captain,Now I suppose one hour has passed since we release the fixed CO2 fire-fighting system. It's time to check engine room fire condition.,act_002_000_012_000_001_001
+12,Chief officer,Rodger.,act_002_000_012_000_002_001
+13,,,
+13,Ableseaman-A,"Now engine room fire is too big, cannot control.",act_002_000_013_000_001_001
+13,Chief officer,"Captain., Now engine room fire is out of control.",act_002_000_013_000_002_001
+14,,,
+14,Captain,All crew prepare to abandon ship drill.,act_002_000_014_000_001_001
+,,,
+,,,

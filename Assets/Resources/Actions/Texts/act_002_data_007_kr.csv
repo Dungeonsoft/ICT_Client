@@ -1,0 +1,24 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,1,"""false""",,,,"""false""",Idle_01,ChiefOfficer_Point001,,,,"""false""","""false""","""false""","""false""","""false""",ChiefOfficer,,a00
+1,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""true""",응급 조치 사항이 아닌 것은?,"산소 소생기, 진통제, 담요준비|환자 혈압, 맥박, 체온을 시간별로 기록|환자 마취",2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""false""",환자 이송에 필요하지 않은 물건은?,선박 항해일지|환자 선원 수첩|환자 의료 기록,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""false""",소지해야하는 휴대품은 무엇입니까?,생수와 담요|이동식 소화기와 소화호스|방화복,1,"""false""",Walking_01,,ChiefOfficer_Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""false""",,,,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""true""",헬리콥터 운용에 필요한 비상 공구 및 설비가 아닌 것은?,내화성 망치|조정 가능한 렌치|볼트 절단기(60cm),0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a06
+7,Idle_01,2,"""true""",,,,"""false""",Walking_01,,ChiefOfficer_Path002,,,"""false""","""false""","""false""","""false""","""false""",,,a07
+8,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a08
+9,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a09
+10,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a10
+11,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a11
+12,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a12
+13,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a13
+14,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a14
+15,Idle_01,2,"""false""",헬리콥터 접근 유도 수신호 방법은?,조명을 헬리콥터로 직접 비추어 위치를 알림|양팔을 머리 위로 올렸다 내리는 동작을 반복|엄지손가락을 위로 향해 올렸다 내리는 동작 반복,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a15
+16,Idle_01,2,"""false""",작업인원 보호를 위한 행동이 아닌 것은?,"감전 방지를 위해 절연장갑을 착용|눈, 귀 보호 용구 및 구명동의를 착용|모든 인원을 현장 대기",2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a16
+17,Idle_01,2,"""false""",BONDING CABLE 연결 방법은?,본선 페인트 부분에 접촉|본선 철판 부분에 접촉|선원이 직접 잡아 유지,1,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a17
+18,Idle_01,2,"""false""",BONDING CABLE 의 역할은?,접지를 통한 스파크 발생 방지|본선에 헬리콥터 고박|환자 인양,0,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a18
+19,Idle_01,2,"""false""",환자 인양 수신호(Winch Up) 방법은?,"왼손은 주먹을 쥐며 전방을 향하고, 오른손을 손바닥이 위를 향하도록 올림|양팔을 머리 위로 올렸다 내리는 동작 반복|엄지손가락을 위로 향해 올림",0,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a19
+20,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a20
+21,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a21
+22,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""true""","""false""","""false""",,,a22

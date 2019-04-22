@@ -1,0 +1,7 @@
+﻿ActionNumber,TextBubble2Role,TextBubble2Text,TextBubble2Audio
+5,Chief Officer,"Bridge, muster station, how do you read me, over?",act_002_000_001_001_000_001
+5,Captain,"Muster station, chief officer I read you well.",act_002_000_001_001_000_001
+5,Chief Officer,"Muster station, report, total crew 17, navigational duty 3, engine room duty 3, patient with third officer, now 9, sir.",act_002_000_001_001_000_001
+5,Captain,"Chief officer, prepare for helicopter rendezvous. A helicopter is scheduled to arrive aroud 16 o'clock.",act_002_000_001_001_000_001
+5,Captain,"Chief officer, prepared to use harness. In case of emergency, prepare also for rescue boat operation.",act_002_000_001_001_000_001
+5,Chief Officer,Rodger.,act_002_000_001_001_000_001

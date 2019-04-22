@@ -1,0 +1,31 @@
+ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,1,"""true""",,,1,"""false""",Idle_01,Point001,,,,"""false""","""false""","""false""","""false""","""false""",Captain,,a00
+1,Idle_01,2,"""false""",,,0,"""false""",Walking_01,,Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""true""",,,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""false""",Where is the muster station?,Vessel Front deck|Engine inside|Bridge,2,"""false""",Walking_01,,Path002,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""true""",Why do you have to check inside of BWT,To check if flooding or not|To calcurate maximum cargo|The air controller before balust tank,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""false""",,,1,"""false""",Walking_01,,Path003,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""true""",,,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a06
+7,Idle_01,2,"""false""",,,1,"""false""",Walking_01,,Path004,,,"""false""","""false""","""false""","""false""","""false""",,,a07
+8,Idle_01,2,"""true""",,,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a08
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,

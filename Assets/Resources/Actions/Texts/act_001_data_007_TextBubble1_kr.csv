@@ -1,0 +1,28 @@
+﻿ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+1,Phone,Ring~ Ring~,act_001_000_001_000_000_001
+1,Captain,This is Captain.,act_001_000_001_000_000_001
+1,Third Officer,"Captain, third engineer is still appealing for abdominal pain at 15:30.",act_001_000_001_000_001_001
+1,Captain,"Third officer, report me the specific symptoms.",act_001_000_001_000_000_001
+1,Thid Officer,"Third engineer is suffering from a severe right lower abdominal pain. It started about an hour ago, it has continued to the present.",act_001_000_001_000_000_001
+1,Captain,"Let the patient take soime rest, and I will talk to the specialist about the symptoms.",act_001_000_001_000_000_001
+2,Captain,"Designated Person, This is Vessel ""A"". Location Latitude 34-10.1N Longitude 129-10.2E. Third engineer has abdominal pain.",act_001_000_001_000_000_001
+3,Designated Person,"Captain, as a result of the inquiries of the doctor, the patient must be escorted because he seems to have an acute appendicitis.",act_001_000_001_000_000_001
+3,Captain,"This vessel is sailing on the XX location, so I request a helicopter for the transportation of ship's patient.",act_001_000_001_000_000_001
+3,Designated Person,"Yes, I will arrange a helicopter to move the patient.",act_001_000_001_000_000_001
+3,Designated Person,The rescue helicopter of Busan Marine Police is scheduled to arrive at about 16:00 PM. I would like to ask Captain to transfer the patient.,act_001_000_001_000_000_001
+4,Captain,"Second officer, make ring the emergency bell and broadcast of ""Helicopter operation training"".",act_001_000_001_000_000_001
+6,Captain,"Third officer, third engineer is considered to be an acute appendicitis and must be escorted to hospital by helicopter.",act_001_000_001_000_000_001
+7,Captain,"Until the arrival of the helicopter, please prepare the transfer of the patient in the room of the third engineer and take care of him.",act_001_000_001_000_000_001
+8,Captain,"Chief officer, third engineer is considered to be acute appendicitis. Accordingly, prepare for emergency convoy with helicopter. Until the helicopter arrives, third officer and third engineer will be waiting in third engineer's room.",act_001_000_001_000_000_001
+8,Chief Officer,Rodger.,act_001_000_001_000_000_001
+9,Chief Officer,"Bridge, muster station, how do you read me, over?",act_001_000_001_000_000_001
+9,Captain,"Muster station, chief officer I read you well.",act_001_000_001_000_000_001
+9,Chief Officer,"Muster station, report, total crew 17, navigational duty 3, engine room duty 3, patient with third officer, now 9, sir.",act_001_000_001_000_000_001
+9,Captain,"Chief officer, prepare for helicopter rendezvous. A helicopter is scheduled to arrive aroud 16 o'clock.",act_001_000_001_000_000_001
+10,Captain,"Chief officer, prepared to use harness. In case of emergency, prepare also for rescue boat operation.",act_001_000_001_000_000_001
+12,Second Officer,"Captain, the helicopter is approaching our ship at 20 miles from SW direction.",act_001_000_001_000_000_001
+12,Captain,"Second officer, confirm the communication on VHF channel 11 to helicopter.",act_001_000_001_000_000_001
+13,Captain,"Chief engineer, reduce the engine to safe speed for helicopter operation.",act_001_000_001_000_000_001
+13,Chief Engineer,Rodger. I will adjust RPM to Slow Ahead.,act_001_000_001_000_000_001
+14,Chief Officer,"Captain, third engineer is in harness and his luggage bag is ready.",act_001_000_001_000_000_001
+14,Captain,Instruct third engineer to be aware the precautions of harness equipment. Be sure to check him for safety before boarding the helicopter.,act_001_000_001_000_000_001

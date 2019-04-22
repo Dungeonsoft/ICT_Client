@@ -1,0 +1,25 @@
+ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,1,"""true""",,,0,"""false""",Idle_01,Point001,,,,"""false""","""false""","""false""","""false""","""false""",,,a00
+1,Idle_01,2,"""true""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""false""",What do you do next?,To move  MusterStation|Checking cargo|To move bridge to check the condition,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""false""",Where is the fire place?,The cargo tank|The engine room|The residence district ,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""false""",What is kind of fire?,Level A oil fire|Level A Normal fire|Level C electronic fire,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""false""",how large is the fire?,middle|Huge|small,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""false""",What is needed to defence fire?,"Working Clothes, Safe Hat, Safe shoes, Tranceiver| Life shirts,Waterprotect clothes| 2 Way VHF",1,"""false""",Walking_01,,Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a06
+7,Idle_01,2,"""false""",Q_06,Q_06|Q_06|Q_06,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a07
+8,Idle_01,2,"""true""",Q_06,Q_06|Q_06|Q_06,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a08
+9,Idle_01,2,"""true""",Q_16,Q_16|Q_16|Q_16,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a09
+10,Idle_01,2,"""true""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a10
+11,Idle_01,2,"""true""",Q_48,Q_48|Q_48|Q_48,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a11
+12,Idle_01,2,"""false""",Q_49,Q_49|Q_49|Q_49,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a12
+13,Idle_01,2,"""true""",Q_48,Q_48|Q_48|Q_48,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a13
+14,Idle_01,2,"""false""",Q_49,Q_49|Q_49|Q_49,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a14
+15,Idle_01,2,"""true""",Q_08,Q_08|Q_08|Q_08,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a15
+16,Idle_01,2,"""false""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a16
+17,Idle_01,2,"""true""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a17
+18,Idle_01,2,"""true""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a18
+19,Idle_01,2,"""true""",,,0,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a19
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,

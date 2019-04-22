@@ -1,0 +1,24 @@
+ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+1,Phone,Ring~ Ring~,act_001_000_000_000_000_000
+1,Captain,This is Captain.,act_001_000_001_000_000_001
+1,Second officer,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+3,,,
+3,Second officer,"I announced fire fighting drill, and all crews are coming to muster station.",act_001_000_003_000_001_001
+8,Captain,Fire-fighting team report.,act_001_000_008_000_000_001
+8,Chief officer,"On scene report of fire fighting team. We are ready, sir.",act_001_000_008_000_001_001
+9,,,
+9,Chief officer,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_009_000_001_001
+9,,,
+9,Chief officer,We request medical response team.,act_001_000_009_000_003_001
+10,,,
+10,Chief officer,Engine room fire is out of control sir. The fire is too big size now.,act_001_000_010_000_001_001
+11,,,
+11,Chief officer,Muster Station report,act_001_000_011_000_001_001
+11,,,
+11,Chief officer,"Total crew 17, navigational duty 3, now 14, sir.",act_001_000_011_000_003_001
+14,Captain,Now I suppose one hour has passed since we release the fixed CO2 fire-fighting system.,act_001_000_014_000_000_001
+14,Chief officer,it's time to check engine room fire condition|Chief officer|Rodger.,act_001_000_014_000_001_001
+15,Captain,Report the engine room fire condition,act_001_000_015_000_000_001
+15,Chief officer,"We checked engine room, but the fire is out of control sir.",act_001_000_015_000_001_001
+15,,,
+15,Chief officer,"Repeat, we failed to extinguish fire in engine room, sir.",act_001_000_015_000_003_001

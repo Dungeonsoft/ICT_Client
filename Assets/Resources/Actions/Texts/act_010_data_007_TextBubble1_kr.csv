@@ -1,0 +1,15 @@
+﻿ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+1,Second Officer,DRILL DRILL DRILL HELICOPTER OPERATION DRILL. THIRD ENGINEER SHOULD BE TRANSFERRED TO HOSPITAL. ALL CREW GATER AT MUSTER STATION.,act_010_000_001_000_000_001
+3,Captain,Helicopter operation drill!,act_010_000_001_000_000_001
+4,Chief Officer,"Go to the No.4 cargo hold starboard side, which is the helicopter rendezvous location, with the items held at the time of the gathering.",act_010_000_001_000_000_001
+4,Bosun,Rodger.,act_010_000_001_000_000_001
+4,Ableseaman A,Rodger.,act_010_000_001_000_000_001
+4,Ableseaman B,Rodger.,act_010_000_001_000_000_001
+5,Chief Officer,"Bosun, in case of emergency, prepare a rescue boat for rescue operation. Please stand by in where you are able to launch rescue.",act_010_000_001_000_000_001
+5,Chief Officer,"Ableseaman A, Please install the wind sock. Afater completion, please go back to muster station.",act_010_000_001_000_000_001
+5,Chief Officer,"The rest of the personnel put the items at rendezvous position, and return to the muster station stand by. Also prepare the fireman's outfit for emergency use.",act_010_000_001_000_000_001
+5,Bosun,Rodger.,act_010_000_001_000_000_001
+5,Ableseaman A,Rodger.,act_010_000_001_000_000_001
+5,Ableseaman B,Rodger.,act_010_000_001_000_000_001
+6,Ableseaman A,"Chief officer, the wind sock has been installed.",act_010_000_001_000_000_001
+6,Chief Officer,Rodger. Go to muster station and wait.,act_010_000_001_000_000_001

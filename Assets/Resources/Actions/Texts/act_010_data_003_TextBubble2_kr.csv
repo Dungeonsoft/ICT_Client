@@ -1,0 +1,13 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,2,"""false""",, ,1,"""false""",Idle_01,Point001,,,,"""false""","""false""","""false""","""false""","""false""",,,a00
+1,Idle_01,2,"""true""",Q03,Answer1|Answer2|Answer3(Q03),1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""false""",Q11,Answer1|Answer2|Answer3(Q11),1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""false""",Q12,Answer1|Answer2|Answer3(Q12),1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""false""",Q13,Answer1|Answer2|Answer3(Q13),1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""false""",Q14,Answer1|Answer2|Answer3(Q14),1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""false""",Q06,Answer1|Answer2|Answer3(Q06),1,"""false""",Walking_01,,Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a06
+7,Idle_01,2,"""false""",,,1,"""false""",Idle_01,,,,,"""true""","""false""","""false""","""false""","""false""",,,a07
+8,Idle_01,2,"""false""",,,1,"""false""",Walking_01,,Path002,,,"""false""","""false""","""false""","""false""","""false""",,,a08
+9,Idle_01,2,"""false""",,,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""true""","""false""",,,a09
+10,Idle_01,2,"""false""",,,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""true""",,,a10
+11,Idle_01,2,"""true""",,,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a11

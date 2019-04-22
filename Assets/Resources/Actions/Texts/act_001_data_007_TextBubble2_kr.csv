@@ -1,0 +1,27 @@
+﻿ActionNumber,TextBubble2Role,TextBubble2Text,TextBubble2Audio
+2,Designated Person,"Captain, this is designated person. What is the specific condition of the patient?",act_001_000_001_001_000_001
+2,Captain,Third engineer has a severe right lower abdominal pain that lasted about an hour.,act_001_000_001_001_000_001
+2,Designated Person,I will contact you immediately after contacting a doctor.,act_001_000_001_001_000_001
+4,Second Officer,Rodger.,act_001_000_001_001_000_001
+4,Second Officer,DRILL DRILL DRILL HELICOPTER OPERATION DRILL. THIRD ENGINEER SHOULD BE TRANSFERRED TO HOSPITAL. ALL CREW GATHER AT MUSTER STATION.,act_001_000_001_001_000_001
+7,Third Engineer,Rodger.,act_001_000_001_001_000_001
+10,Chief Officer,Rodger.,act_001_000_001_001_000_001
+11,Captain,Helicopter operation drill!,act_001_000_001_001_000_001
+12,Second Officer,Rodger. Current wind direction NE and wind speed 15 knots. We will change course to 220 degrees for helicopter rendezvous.,act_001_000_001_001_000_001
+13,Captain,"Third engineer, the helicopter will arrive in about 20 minutes. Now move the patient to the rendezvous location.",act_001_000_001_001_000_001
+13,Third Engineer,"Captain, third engineer is suffering from severe abdominal pain, but he can barely walk, so I will keep him moving.",act_001_000_001_001_000_001
+13,Captain,"Chief officer, patient third engineer and third officer are going to the rendezvous location. So pay attention to helicopter-guide and help lifting patient.",act_001_000_001_001_000_001
+13,Chief Officer,Rodger.,act_001_000_001_001_000_001
+15,Chief Officer,"Captain, the patient boarded safely in the helicopter",act_001_000_001_001_000_001
+15,Captain,Rodger. Be cafeful of overboard safety accident during deck work.,act_001_000_001_001_000_001
+16,Captain,"Second officer, the patient is found to be moving safely. Make annoucing to dismiss the emergency drill of helicopter operation.",act_001_000_001_001_000_001
+16,Second Officer,Rodger.,act_001_000_001_001_000_001
+17,Captain,"Chief officer, make arrangement of training equipment and dismiss.",act_001_000_001_001_000_001
+17,Chief Officer,Rodger.,act_001_000_001_001_000_001
+18,Captain,"Second officer, now change the course and return to the navigation route.",act_001_000_001_001_000_001
+18,Second Officer,Rodger.,act_001_000_001_001_000_001
+19,Captain,"Designated Person, the helicopter with third engineer departed at 4:10.",act_001_000_001_001_000_001
+19,Designated Person,Ok. We will take him to the hospital and inform you of the outcome. Please sail safety to your destination.,act_001_000_001_001_000_001
+19,Captain,Rodger.,act_001_000_001_001_000_001
+20,Captain,"Chief engineer, now increase engine RPM to Sea Speed and keep normal condition.",act_001_000_001_001_000_001
+20,Chief Officer,Rodger. I will adjust engine department duty table without third engineer.,act_001_000_001_001_000_001

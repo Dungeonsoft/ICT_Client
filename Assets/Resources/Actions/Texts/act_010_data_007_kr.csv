@@ -1,0 +1,8 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Idle_01,1,"""false""",,,,"""false""",Idle_01,AbleseamanA_Point001,,,,"""false""","""false""","""false""","""false""","""false""",AbleseamanA,,a00
+1,Idle_01,2,"""true""",어떤 조치를 하시겠습니까?,갑판구역 정비작업을 계속한다|휴대품을 챙겨서 비상소집장소로 이동한다|브릿지로 가서 상황을 파악한다,1,"""false""",Walking_01,,AbleseamanA_Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Idle_01,2,"""false""",소지해야하는 휴대품은 무엇입니까?,생수와 담요|이동식 소화기와 소화호스|방화복,2,"""true""",Walking_01,,AbleseamanA_Path002,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,2,"""true""",헬리콥터 운용에 필요한 비상 공구 및 설비가 아닌 것은?,내화성 망치|조정 가능한 렌치|볼트 절단기(60cm),0,"""true""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""true""",,,,"""false""",Walking_01,,AbleseamanA_Path003,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+5,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a05
+6,Idle_01,2,"""true""",,,,"""false""",Walking_01,,AbleseamanA_Path004,,,"""false""","""false""","""false""","""false""","""false""",,,a06

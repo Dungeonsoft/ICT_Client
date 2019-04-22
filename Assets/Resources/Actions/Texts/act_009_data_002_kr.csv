@@ -1,0 +1,5 @@
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,TextBubble1Audio,Question,Answers,Correct,TextBubble2,TextBubble2Audio,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff
+0,Lying_01,2,"갑판장|내가 NO.5(P) BALLAST TANK 진입해서 내부 점검을 하는 동안 갑판수A는 갑판상에서 대기하면서 비상시 연락 바랍니다|갑판수A|네, 알겠습니다",,,,,,,Lying_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+1,Lying_01,2,갑판장|NO.5(P) BALLAST TANK 내부에서 산소 농도 부족으로 의식을 잃고 쓰러짐,,,,,,,Lying_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+2,Lying_01,2,"갑판장|소방원장구 착용자 갑판수A,B에 의해 이동되어, 갑판으로 끌어올려짐",,,,,,,Lying_01,,,,,"""false""","""false""","""false""","""false""","""false"""
+3,Lying_01,2,"갑판장|심폐소생술 시행 결과, 호흡을 회복함. 의식이 회복될 때까지 병원 침실에서 휴식을 취함.",,,,,,,Lying_01,,,,,"""false""","""false""","""true""","""false""","""false"""

@@ -1,0 +1,61 @@
+ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+0,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_000_000_000_000
+0,Officier 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_000_001
+1,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+1,Officier 2nd,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+2,,,
+2,Officier 2nd,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_008_000_000_001
+2,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+2,Officier 2nd,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_009_000_001_001
+3,,,
+3,Broadcast,Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril Dril ,act_001_000_009_000_001_001
+4,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+4,DP,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_009_000_003_001
+5,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+5,Engineer 1st,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_010_000_001_001
+6,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_010_000_001_002
+6,Officier 1st,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_010_000_001_003
+7,Captain,"Captain, we have fire in engine room generator, B class medium size, Sir.",act_001_000_001_000_001_001
+8,,,
+8,Officier 2nd,"Total crew 17, navigational duty 3, now 14, sir.",act_001_000_011_000_003_001
+8,,,
+8,Officier 2nd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. ",act_001_000_014_000_001_001
+9,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. ",act_001_000_015_000_000_001
+9,Officier 3rd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work. ",act_001_000_015_000_001_001
+10,,,
+10,Officier 3rd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+10,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+11,,,
+11,Engineer 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_001
+11,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_002
+12,,,
+12,Officier 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_001
+12,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_002
+12,Officier 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_003
+13,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_001
+14,,,
+14,DP,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_001
+14,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+14,DP,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_001_000_001_001
+15,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+15,Engineer 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_002
+16,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+16,Engineer chief,"Yes, sir.",act_001_000_015_000_003_002
+17,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_015_000_003_001
+17,Officier 2nd,"Yes, sir.",act_001_000_015_000_003_001
+17,,,
+17,Officier 2nd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_001
+17,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_001
+17,Officier 2nd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_001
+18,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_001
+18,Officier 1st,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_002
+19,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_003
+19,DP,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_004
+20,,,
+20,Diver,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_004
+20,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_004
+21,Captain,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_005
+21,Officier 3rd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_006
+21,,,
+21,Officier 3rd,"Captain, we have injury on scene. Oiler C has ankle damage during fire fighting work.",act_001_000_011_000_003_008
+22,Broadcast,The Situation is finished.,act_001_000_015_000_003_001

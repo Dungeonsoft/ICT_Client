@@ -1,0 +1,14 @@
+﻿ActionNumber,TextBubble1Role,TextBubble1Text,TextBubble1Audio
+1,Phone,Ring~ Ring~,act_004_000_001_000_000_001
+1,Captain,This is Captain.,act_004_000_001_000_000_001
+1,Third Officer,"Captain, third engineer is still appealing for abdominal pain at 15:30.",act_004_000_001_000_000_001
+1,Captain,"Third officer, report me the specific symptoms.",act_004_000_001_000_000_001
+1,Thid Officer,"Third engineer is suffering from a severe right lower abdominal pain. It started about an hour ago, it has continued to the present.",act_004_000_001_000_000_001
+1,Captain,"Let the patient take soime rest, and I will talk to the specialist about the symptoms.",act_004_000_001_000_000_001
+2,Second Officer,DRILL DRILL DRILL HELICOPTER OPERATION DRILL. THIRD ENGINEER SHOULD BE TRANSFERRED TO HOSPITAL. ALL CREW GATHER AT MUSTER STATION.,act_004_000_001_000_000_001
+3,Captain,"Third officer, third engineer is considered to be an acute appendicitis and must be escorted to hospital by helicopter.",act_004_000_001_000_000_001
+3,Captain,"Until the arrival of the helicopter, please prepare the transfer of the patient in the room of the third engineer and take care of him.",act_004_000_001_000_000_001
+4,Captain,Helicopater operation drill!,act_004_000_001_000_000_001
+5,Captain,"Third officer, the helicopter will arrive in about 20 minutes. Now move the patient to the rendezvous location.",act_004_000_001_000_000_001
+7,Chief Officer,"Third officer, let third engineer wear harness.",act_004_000_001_000_000_001
+7,Rodger,Rodger.,act_004_000_001_000_000_001

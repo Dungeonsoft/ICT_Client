@@ -1,0 +1,12 @@
+ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,TagName,video,ActionEnum
+0,Writing_01|Idle_01,1,"""false""",,,,"""false""",Idle_01,Point001,,,,"""false""","""false""","""false""","""false""","""false""",,,a00
+1,Idle_01,3,"""false""",,,,"""false""",Walking_01,,Path001,,,"""false""","""false""","""false""","""false""","""false""",,,a01
+2,Damper_01|Idle_01,4,"""false""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a02
+3,Idle_01,3,"""false""",,,,"""false""",Walking_01,,Path002,,,"""false""","""false""","""false""","""false""","""false""",,,a03
+4,Idle_01,2,"""false""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,,a04
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
