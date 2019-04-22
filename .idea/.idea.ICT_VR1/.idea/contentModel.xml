@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\ICT\ProJectWorks\ICT_VR" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="AnimShowHide.cs" t="Include" />
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="DOTween.XML" t="Include" />
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DOTweenEditor.XML" t="Include" />
+            </e>
+            <e p="Examples" t="Include">
+              <e p="Basics.cs" t="Include" />
+              <e p="Sequences.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="HTC.UnityPlugin" t="Include">
+          <e p="ColliderEvent" t="Include">
+            <e p="ColliderEventCaster.cs" t="Include" />
+            <e p="ColliderEventData.cs" t="Include" />
+            <e p="ColliderEventInterfaces.cs" t="Include" />
+            <e p="ExecuteColliderEvents.cs" t="Include" />
+          </e>
+          <e p="Pointer3D" t="Include">
+            <e p="Pointer3DEventData.cs" t="Include" />
+            <e p="Pointer3DInputModule.cs" t="Include" />
+            <e p="Raycaster" t="Include">
+              <e p="Base" t="Include">
+                <e p="BaseFallbackCamRaycaster.cs" t="Include" />
+                <e p="BaseMultiMethodRaycaster.cs" t="Include" />
+              </e>
+              <e p="Pointer3DRaycaster.cs" t="Include" />
+            </e>
+            <e p="RaycastMethod" t="Include">
+              <e p="Base" t="Include">
+                <e p="BaseRaycastMethod.cs" t="Include" />
+                <e p="IRaycastMethod.cs" t="Include" />
+              </e>
+              <e p="CanvasRaycastMethod.cs" t="Include" />
+              <e p="CanvasRaycastTarget.cs" t="Include" />
+              <e p="GraphicRaycastMethod.cs" t="Include" />
+              <e p="Physics2DRaycastMethod.cs" t="Include" />
+              <e p="PhysicsRaycastMethod.cs" t="Include" />
+            </e>
+            <e p="RaySegmentGenerator" t="Include">
+              <e p="Base" t="Include">
+                <e p="BaseRaySegmentGenerator.cs" t="Include" />
+                <e p="IRaySegmentGenerator.cs" t="Include" />
+              </e>
+              <e p="DefaultGenerator.cs" t="Include" />
+              <e p="ProjectileGenerator.cs" t="Include" />
+              <e p="ProjectionGenerator.cs" t="Include" />
+            </e>
+            <e p="StandaloneRaycaster" t="Include">
+              <e p="StandaloneEventData.cs" t="Include" />
+              <e p="StandaloneRaycaster.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PoseTracker" t="Include">
+            <e p="Base" t="Include">
+              <e p="BasePoseModifier.cs" t="Include" />
+              <e p="BasePoseTracker.cs" t="Include" />
+              <e p="IPoseModifier.cs" t="Include" />
+              <e p="IPoseTracker.cs" t="Include" />
+            </e>
+            <e p="Pose.cs" t="Include" />
+            <e p="PoseModifiers" t="Include">
+              <e p="PoseEaser.cs" t="Include" />
+              <e p="PoseFreezer.cs" t="Include" />
+              <e p="PoseStablizer.cs" t="Include" />
+            </e>
+            <e p="PoseTracker.cs" t="Include" />
+          </e>
+          <e p="Utility" t="Include">
+            <e p="Attribute" t="Include">
+              <e p="CustomOrderedEnumAttribute.cs" t="Include" />
+              <e p="FlagsFromEnumAttribute.cs" t="Include" />
+            </e>
+            <e p="ChangeProp.cs" t="Include" />
+            <e p="Container" t="Include">
+              <e p="IndexedSet.cs" t="Include" />
+              <e p="IndexedTable.cs" t="Include" />
+              <e p="OrderedIndexedSet.cs" t="Include" />
+              <e p="OrderedIndexedTable.cs" t="Include" />
+            </e>
+            <e p="ContainerPool" t="Include">
+              <e p="DictionaryPool.cs" t="Include" />
+              <e p="IndexedSetPool.cs" t="Include" />
+              <e p="ListPool.cs" t="Include" />
+              <e p="ObjectPool.cs" t="Include" />
+            </e>
+            <e p="EnumUtils.cs" t="Include" />
+            <e p="SingletonBehaviour.cs" t="Include" />
+          </e>
+          <e p="ViveInputUtility" t="Include">
+            <e p="changelog.txt" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="2.2DDragDrop" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="DragImage.cs" t="Include" />
+                  <e p="DropImage.cs" t="Include" />
+                </e>
+              </e>
+              <e p="3.3DDrag" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Draggable.cs" t="Include" />
+                  <e p="PlayGroundManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="4.Teleport" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ImageAlphaRaycastFilter.cs" t="Include" />
+                </e>
+              </e>
+              <e p="5.ColliderEvent" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="GravitySwitch.cs" t="Include" />
+                  <e p="ResetButton.cs" t="Include" />
+                </e>
+              </e>
+              <e p="6.ControllerManagerSample" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ChangeMaterialToButtonsColor.cs" t="Include" />
+                  <e p="ShowMenuOnClick.cs" t="Include" />
+                  <e p="SpawnObjectOnTriggerExit.cs" t="Include" />
+                </e>
+              </e>
+              <e p="7.RoleBindingExample" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="DeviceInfoUIController.cs" t="Include" />
+                  <e p="DeviceScanner.cs" t="Include" />
+                  <e p="MappingItemUIController.cs" t="Include" />
+                  <e p="RoleMapStatusUIController.cs" t="Include" />
+                  <e p="SaveLoadBindingsUIController.cs" t="Include" />
+                  <e p="ToggleButtonUIController.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Resources" t="Include">
+              <e p="Unlit-AlphaWithFade.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Misc" t="Include">
+                <e p="BasicGrabbable.cs" t="Include" />
+                <e p="ControllerManagerSample.cs" t="Include" />
+                <e p="ExCamConfigInterface" t="Include">
+                  <e p="ExCamConfigInterfaceDraggableLabel.cs" t="Include" />
+                  <e p="ExCamConfigInterfacePanelController.cs" t="Include" />
+                </e>
+                <e p="ExternalCameraHook.cs" t="Include" />
+                <e p="GuideLineDrawer.cs" t="Include" />
+                <e p="MaterialChanger.cs" t="Include" />
+                <e p="OverlayKeyboardSample.cs" t="Include" />
+                <e p="RenderModelHook.cs" t="Include" />
+                <e p="ReticlePoser.cs" t="Include" />
+                <e p="SteamVRCameraHook.cs" t="Include" />
+                <e p="StickyGrabbable.cs" t="Include" />
+                <e p="Teleportable.cs" t="Include" />
+              </e>
+              <e p="VIUVersion.cs" t="Include" />
+              <e p="ViveColliderEvent" t="Include">
+                <e p="ViveColliderEventCaster.cs" t="Include" />
+                <e p="ViveColliderEventData.cs" t="Include" />
+              </e>
+              <e p="ViveInput" t="Include">
+                <e p="ControllerState.cs" t="Include" />
+                <e p="ViveInput.cs" t="Include" />
+                <e p="ViveInputStatic.cs" t="Include" />
+                <e p="ViveInputVirtualButton.cs" t="Include" />
+              </e>
+              <e p="VivePose" t="Include">
+                <e p="VivePose.cs" t="Include" />
+                <e p="VivePoseGet.cs" t="Include" />
+                <e p="VivePoseTracker.cs" t="Include" />
+                <e p="ViveRigidPoseTracker.cs" t="Include" />
+              </e>
+              <e p="ViveRaycaster" t="Include">
+                <e p="VivePointerEventData.cs" t="Include" />
+                <e p="ViveRaycaster.cs" t="Include" />
+              </e>
+              <e p="ViveRole" t="Include">
+                <e p="BindingInterface" t="Include">
+                  <e p="BindingInterfaceConfigPanelController.cs" t="Include" />
+                  <e p="BindingInterfaceDeviceItem.cs" t="Include" />
+                  <e p="BindingInterfaceDevicePanelController.cs" t="Include" />
+                  <e p="BindingInterfaceRoleButtonItem.cs" t="Include" />
+                  <e p="BindingInterfaceRolePanelController.cs" t="Include" />
+                  <e p="BindingInterfaceRoleSetBindingItem.cs" t="Include" />
+                  <e p="BindingInterfaceRoleSetButtonItem.cs" t="Include" />
+                  <e p="BindingInterfaceRoleSetPanelController.cs" t="Include" />
+                  <e p="BindingInterfaceSpriteManager.cs" t="Include" />
+                </e>
+                <e p="RoleMaps" t="Include">
+                  <e p="BodyRole.cs" t="Include" />
+                  <e p="DeviceRole.cs" t="Include" />
+                  <e p="HandRole.cs" t="Include" />
+                  <e p="TrackerRole.cs" t="Include" />
+                </e>
+                <e p="ViveRole.cs" t="Include" />
+                <e p="ViveRoleBindingsHelper.cs" t="Include" />
+                <e p="ViveRoleEnum.cs" t="Include" />
+                <e p="ViveRoleMap.cs" t="Include" />
+                <e p="ViveRoleMapHandler.cs" t="Include" />
+                <e p="ViveRoleProperty.cs" t="Include" />
+                <e p="ViveRoleSetter.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="VRModule" t="Include">
+            <e p="Modules" t="Include">
+              <e p="OculusVRModule.cs" t="Include" />
+              <e p="SteamVRModule.cs" t="Include" />
+              <e p="UnityEngineVRModule.cs" t="Include" />
+              <e p="UnityEngineVRModule_2017_1.cs" t="Include" />
+              <e p="UnityEngineVRModule_2017_2.cs" t="Include" />
+              <e p="UnityEngineVRModule_5_5.cs" t="Include" />
+              <e p="UnityEngineVRModule_5_6.cs" t="Include" />
+            </e>
+            <e p="VRModule.cs" t="Include" />
+            <e p="VRModuleBase.cs" t="Include" />
+            <e p="VRModuleDeviceState.cs" t="Include" />
+            <e p="VRModuleEvent.cs" t="Include" />
+            <e p="VRModuleManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PostProcessing" t="Include">
+          <e p="Editor Resources" t="Include">
+            <e p="Monitors" t="Include">
+              <e p="HistogramCompute.compute" t="Include" />
+              <e p="HistogramRender.shader" t="Include" />
+              <e p="ParadeRender.shader" t="Include" />
+              <e p="VectorscopeCompute.compute" t="Include" />
+              <e p="VectorscopeRender.shader" t="Include" />
+              <e p="WaveformCompute.compute" t="Include" />
+              <e p="WaveformRender.shader" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CurveBackground.shader" t="Include" />
+              <e p="Trackball.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Bluenoise64" t="Include">
+              <e p="COPYING.txt" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="ACES.cginc" t="Include" />
+              <e p="AmbientOcclusion.cginc" t="Include" />
+              <e p="AmbientOcclusion.shader" t="Include" />
+              <e p="Blit.shader" t="Include" />
+              <e p="Bloom.cginc" t="Include" />
+              <e p="Bloom.shader" t="Include" />
+              <e p="BuiltinDebugViews.shader" t="Include" />
+              <e p="ColorGrading.cginc" t="Include" />
+              <e p="Common.cginc" t="Include" />
+              <e p="DepthOfField.cginc" t="Include" />
+              <e p="DepthOfField.shader" t="Include" />
+              <e p="DiskKernels.cginc" t="Include" />
+              <e p="EyeAdaptation.cginc" t="Include" />
+              <e p="EyeAdaptation.shader" t="Include" />
+              <e p="EyeHistogram.compute" t="Include" />
+              <e p="Fog.shader" t="Include" />
+              <e p="FXAA.shader" t="Include" />
+              <e p="FXAA3.cginc" t="Include" />
+              <e p="GrainGen.shader" t="Include" />
+              <e p="LutGen.shader" t="Include" />
+              <e p="MotionBlur.cginc" t="Include" />
+              <e p="MotionBlur.shader" t="Include" />
+              <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+              <e p="ScreenSpaceReflection.shader" t="Include" />
+              <e p="TAA.cginc" t="Include" />
+              <e p="TAA.shader" t="Include" />
+              <e p="Tonemapping.cginc" t="Include" />
+              <e p="Uber.shader" t="Include" />
+              <e p="UberSecondPass.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Attributes" t="Include">
+              <e p="GetSetAttribute.cs" t="Include" />
+              <e p="MinAttribute.cs" t="Include" />
+              <e p="TrackballAttribute.cs" t="Include" />
+              <e p="TrackballGroupAttribute.cs" t="Include" />
+            </e>
+            <e p="Components" t="Include">
+              <e p="AmbientOcclusionComponent.cs" t="Include" />
+              <e p="BloomComponent.cs" t="Include" />
+              <e p="BuiltinDebugViewsComponent.cs" t="Include" />
+              <e p="ChromaticAberrationComponent.cs" t="Include" />
+              <e p="ColorGradingComponent.cs" t="Include" />
+              <e p="DepthOfFieldComponent.cs" t="Include" />
+              <e p="DitheringComponent.cs" t="Include" />
+              <e p="EyeAdaptationComponent.cs" t="Include" />
+              <e p="FogComponent.cs" t="Include" />
+              <e p="FxaaComponent.cs" t="Include" />
+              <e p="GrainComponent.cs" t="Include" />
+              <e p="MotionBlurComponent.cs" t="Include" />
+              <e p="ScreenSpaceReflectionComponent.cs" t="Include" />
+              <e p="TaaComponent.cs" t="Include" />
+              <e p="UserLutComponent.cs" t="Include" />
+              <e p="VignetteComponent.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="AmbientOcclusionModel.cs" t="Include" />
+              <e p="AntialiasingModel.cs" t="Include" />
+              <e p="BloomModel.cs" t="Include" />
+              <e p="BuiltinDebugViewsModel.cs" t="Include" />
+              <e p="ChromaticAberrationModel.cs" t="Include" />
+              <e p="ColorGradingModel.cs" t="Include" />
+              <e p="DepthOfFieldModel.cs" t="Include" />
+              <e p="DitheringModel.cs" t="Include" />
+              <e p="EyeAdaptationModel.cs" t="Include" />
+              <e p="FogModel.cs" t="Include" />
+              <e p="GrainModel.cs" t="Include" />
+              <e p="MotionBlurModel.cs" t="Include" />
+              <e p="ScreenSpaceReflectionModel.cs" t="Include" />
+              <e p="UserLutModel.cs" t="Include" />
+              <e p="VignetteModel.cs" t="Include" />
+            </e>
+            <e p="PostProcessingBehaviour.cs" t="Include" />
+            <e p="PostProcessingComponent.cs" t="Include" />
+            <e p="PostProcessingContext.cs" t="Include" />
+            <e p="PostProcessingModel.cs" t="Include" />
+            <e p="PostProcessingProfile.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="ColorGradingCurve.cs" t="Include" />
+              <e p="GraphicsUtils.cs" t="Include" />
+              <e p="MaterialFactory.cs" t="Include" />
+              <e p="RenderTextureFactory.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="CustomMotionTexture" t="Include">
+              <e p="ExampleWheelController.cs" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="CustomMotionVectorTexture.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="RoleShow.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="AddFunctions.cs" t="Include" />
+          <e p="CharcterWideController.cs" t="Include" />
+          <e p="EditorPathScript.cs" t="Include" />
+          <e p="FAT_Control.cs" t="Include" />
+          <e p="GetPath.cs" t="Include" />
+          <e p="iTween" t="Include">
+            <e p="iTween.cs" t="Include" />
+            <e p="ReadMe!" t="Include">
+              <e p="ReadMe!.txt" t="Include" />
+            </e>
+            <e p="Sample" t="Include">
+              <e p="MoveSample.cs" t="Include" />
+              <e p="RotateSample.cs" t="Include" />
+              <e p="SampleInfo.cs" t="Include" />
+            </e>
+          </e>
+          <e p="iTweenPath" t="Include">
+            <e p="iTweenPath.cs" t="Include" />
+          </e>
+          <e p="MainController.cs" t="Include" />
+          <e p="MakeArea.cs" t="Include" />
+          <e p="MoveOnPathScript.cs" t="Include" />
+          <e p="PointerMaker.cs" t="Include" />
+          <e p="PointerProperty.cs" t="Include" />
+          <e p="PointGizmo.cs" t="Include" />
+          <e p="RoleEvent.cs" t="Include" />
+          <e p="TestRayScript.cs" t="Include" />
+        </e>
+        <e p="ShowCont01.cs" t="Include" />
+        <e p="ShowPosition.cs" t="Include" />
+        <e p="Standard Assets" t="Include">
+          <e p="Characters" t="Include">
+            <e p="FirstPersonCharacter" t="Include">
+              <e p="FirstPersonCharacterGuidelines.txt" t="Include" />
+            </e>
+            <e p="RollerBall" t="Include">
+              <e p="RollerBallGuidelines.txt" t="Include" />
+            </e>
+            <e p="ThirdPersonCharacter" t="Include">
+              <e p="ThirdPersonCharacterGuidelines.txt" t="Include" />
+            </e>
+          </e>
+          <e p="CrossPlatformInput" t="Include">
+            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Volumetric Ambient Occlusion" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="VAOEffect.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="VAOShader.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Documentation" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="ICT_VR.csproj" t="IncludeRecursive" />
+      <e p="ICT_VR1.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="UnityVS_bin\Debug" t="ExcludeRecursive" />
+        <e p="UnityVS_obj\Debug" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\naury\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_ICT_VR1.892621147.00" t="ExcludeRecursive" />
+  </component>
+</project>
