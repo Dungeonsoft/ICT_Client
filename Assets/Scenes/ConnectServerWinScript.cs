@@ -23,7 +23,7 @@ public class ConnectServerWinScript : MonoBehaviour {
 
     public void ConnectServer()
     {
-        clsConnect.serverURL = "http://" + baseText.text + endText.text;
+       // clsConnect.serverURL = "http://" + baseText.text + endText.text;
         clsConnect.UserStart();
 
         /////////////////////////////////

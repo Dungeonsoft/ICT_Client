@@ -34,6 +34,7 @@ public class GetOtherUserMoveData
     public string uid;
     public string chMotion;
     public string isChangeActionNum;
+    public string isWalk;
 }
 
 public class SendEnd

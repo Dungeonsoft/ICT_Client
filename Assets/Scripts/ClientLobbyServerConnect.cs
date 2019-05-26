@@ -25,12 +25,12 @@ public class ClientLobbyServerConnect : MonoBehaviour
     }
 
 
-    Socket socket;
+    public Socket socket;
 
     public string idGotten;
     public string dateFromServer;
 
-    public string serverURL = "http://localhost";
+    public string[] serverURL = { "http://192.168.0.2", "http://localhost" };
 
     public string urlInfoPath = @"c:\InnoIctUrl\url.txt";
 
@@ -45,10 +45,12 @@ public class ClientLobbyServerConnect : MonoBehaviour
     public Text LogText;
     private List<string> loglist = new List<string>();
 
-
+    public int urlQueue = 0;
     public void UserStart()
     {
-
+        //2019_05_14 수정해야될 내용 입력
+        // 여기에서 serverURL 에 입력된 주소를 차례대로 호출하면서 접속을 시도한다.
+        // 2초이상 접속이 안되면 다음 주소로 접속을 시도하도록 코드를 제작한다.
         winList.Add(logIning_Win);
         winList.Add(logIn_Success_Win);
         winList.Add(userRole_State_Win);
@@ -57,44 +59,22 @@ public class ClientLobbyServerConnect : MonoBehaviour
         // 처음 로그인중 화면을 보여줌.
         ShowWin(0f, logIning_Win);
 
-        #region 외부에서 주소를 불러오는 코드를 작성한것-안됨
-        //로컬 위치에서 서버주소를 불러오기//
-        //string urlText;
-        //try { 
-        //   urlText = System.IO.File.ReadAllText(urlInfoPath);
-        //}
-        //catch ( Exception e)
-        //{
-        //    Debug.LogException(e);
-        //    urlText = "http://192.168.0.3";
-        //}
-
-        //if (string.IsNullOrEmpty(urlText))
-        //{
-        //    Debug.Log("urlText is nullor empty");
-        //}
-        //else
-        //{
-        //    serverURL = urlText;
-        //    Debug.Log(urlText);
-        //    logIning_Win.transform.Find("Text").GetComponent<Text>().text = serverURL;
-        //}
-        #endregion
 
 
 
-        logIning_Win.transform.Find("Text").GetComponent<Text>().text = serverURL;
+
+        logIning_Win.transform.Find("Text").GetComponent<Text>().text = serverURL[urlQueue];
 
 
         Debug.Log("@@@@@@@@ Server Connecting Start!!!");
         if (socket == null)
         {
-            Debug.Log("@@@@@@@@ Socket Is NULL!!!");
+            Debug.Log("@@@@@@@@ Socket Is NULL!!!" + serverURL[0]);
             // 소켓은 주어진 주소를 기반으로 연결한다.(접속시도)
             //socket = Socket.Connect(serverURL);
             try
             {
-                socket = Socket.Connect(serverURL);
+                socket = Socket.Connect(serverURL[urlQueue]);
             }
             catch (Exception e)
             {
@@ -107,108 +87,109 @@ public class ClientLobbyServerConnect : MonoBehaviour
             }
             else
             {
-                Debug.Log("SOCKET IS NOT NULL");
+                Debug.Log("SOCKET IS NOT NULL" + socket.IsConnected);
+            }
+        }//(2019-5-15) if의 종료 위치를 변경해봄
 
-               
+
+        // 연결되면 이곳이 실행이 된다.//
+        socket.On("connect", () =>
+        {
+            Debug.Log("111111 -커넥트 되었다.-");
+            Debug.Log("-처리할 내용을 이곳에 구현한다-");
+            Debug.Log("Connected");
+        });
+
+
+        //로그인을 시도하며 통제툴이 먼저 로그인 되었는지 확인을 한다.//
+        //통제툴이 아닌 일반 클라이언트에서 작동할 코드.//
+        socket.On("GetIdMade", (string idAndDate) =>
+        {
+            // 받아온 아이디와 날짜를 데이터를(json Type data) 유니티에서 쓸수 있게//
+            // 컨버팅을 한다. 컨버팅을 할때는 이를 받아쓸수 있게 되어있는 기 선언된 클래스//
+            // 껍데기가 하나 필요하다. 앞으로 이런 형태가 발생하면 미리 준비할것.//
+            Debug.Log("GetIdMade >> : " + idAndDate);
+
+            // 뉴튼제이슨을 쓰는 부분- UWP에서는 사용불가능.
+            //IdDate idDate = JsonConvert.DeserializeObject<IdDate>(idAndDate);
+            // 제이슨을 유니티 기본 제공되는 것으로 사용.
+            IdDate idDate = JsonUtility.FromJson<IdDate>(idAndDate);
+
+            idGotten = idDate.id;
+            dateFromServer = idDate.date;
+            Debug.Log("Id Gotten: " + idGotten);
+            ConstDataScript.uid = idGotten;
+            // 통제툴이 로그인했는가 여부를 가지고 와서 확인을 해준다.//
+            socket.Emit("loginClient", idGotten, (string isSuccessFromServer) =>
+        {
+            Debug.Log("loginClient  실행이 되었다");
+            isSuccessFromServer = CleanupString(isSuccessFromServer);
+                // 통제툴이 준비되었는지 먼저 확인후 작동하도록 만든다.//
+                // 통제툴이 준비되지 않았으면 잠시후 다시 로그인을 하라는 창이 뜨고//
+                // 대기 상태가 되도록 만들어 준다.//
+                if (isSuccessFromServer == "true")
+            {
+                Debug.Log("Prefaring is " + isSuccessFromServer);
+                    // 대기 화면을 보여준다.//
+                    // 여기에 표시되어야 될 것은//
+                    // 기본적인 유저 이름(그리스전시회에서는 직책과 이름(trainee로 표기))
+                    ShowWin(0f, logIn_Success_Win);
+                ShowWin(2f, userRole_State_Win);
+            }
+            else
+            {
+                Debug.Log("Prefaring is " + isSuccessFromServer);
+                    // 통제툴이 준비되지 않았기 때문에//
+                    // 통제툴이 준비되면 다시 로그인하라는//
+                    // 화면이 뜨고 아래 재로그인 버튼을 붙인다.//
+                    ShowWin(0f, logIn_Fail_Win);
+                    // 실패 화면이 뜨면 종료가 처리되도록 메소드를 실행한다.
+                    logIn_Fail_Win.GetComponent<QuitApp>().QuitWin();
+            }
+        });
+        });
+
+        socket.On("startClient", (string data) =>
+        {
+            Debug.Log("Start Client::: " + data);
+            Debug.Log(data + "!!!!!!!");
+            Debug.Log(data + "!!!!!!!");
+            Debug.Log(data + "!!!!!!!");
+            Debug.Log(data + "!!!!!!!");
+            Debug.Log(data + "!!!!!!!");
+
+            var roleData = CleanupString(data).Split(',');
+            Debug.Log("roleData.Length: " + roleData.Length);
+            for (int i = 0; i < roleData.Length; i++)
+            {
+                Debug.Log("roleData[" + i + "]" + roleData[i]);
+
+                if (roleData[i] != "" && roleData[i] != null)
+                {
+                    ConstDataScript.userCharacters.Add(int.Parse(roleData[i]));
+                }
+            }
+            Debug.Log("스트링에서 인트로 변화된 값");
+            foreach (var a in ConstDataScript.userCharacters)
+            {
+                Debug.Log(a);
             }
 
-            // 연결되면 이곳이 실행이 된다.//
-            socket.On("connect", () =>
-            {
-                Debug.Log("111111 -커넥트 되었다.-");
-                Debug.Log("-처리할 내용을 이곳에 구현한다-");
-                Debug.Log("Connected");
-            });
+            var sNum = ConstDataScript.scenarioNum;
 
+            StartCoroutine(StartNextScene(sNum));
+            //UnityEngine.SceneManagement.SceneManager.LoadScene(sNum);
+        });
 
-            //로그인을 시도하며 통제툴이 먼저 로그인 되었는지 확인을 한다.//
-            //통제툴이 아닌 일반 클라이언트에서 작동할 코드.//
-            socket.On("GetIdMade", (string idAndDate) =>
-            {
-                // 받아온 아이디와 날짜를 데이터를(json Type data) 유니티에서 쓸수 있게//
-                // 컨버팅을 한다. 컨버팅을 할때는 이를 받아쓸수 있게 되어있는 기 선언된 클래스//
-                // 껍데기가 하나 필요하다. 앞으로 이런 형태가 발생하면 미리 준비할것.//
-                Debug.Log("GetIdMade >> : " + idAndDate);
+        // sNum 참고.
+        // 1번: 화재.
+        // 2번: 퇴선.
+        // 3번: 밀폐구역.
+        //} // 원래 if(socket ==  null) 의 마지막 부분(2019-5-14) 
 
-                // 뉴튼제이슨을 쓰는 부분- UWP에서는 사용불가능.
-                //IdDate idDate = JsonConvert.DeserializeObject<IdDate>(idAndDate);
-                // 제이슨을 유니티 기본 제공되는 것으로 사용.
-                IdDate idDate = JsonUtility.FromJson<IdDate>(idAndDate);
-
-                idGotten = idDate.id;
-                dateFromServer = idDate.date;
-                Debug.Log("Id Gotten: " + idGotten);
-                ConstDataScript.uid = idGotten;
-                // 통제툴이 로그인했는가 여부를 가지고 와서 확인을 해준다.//
-                socket.Emit("loginClient", idGotten, (string isSuccessFromServer) =>
-                {
-                    Debug.Log("loginClient  실행이 되었다");
-                    isSuccessFromServer = CleanupString(isSuccessFromServer);
-                    // 통제툴이 준비되었는지 먼저 확인후 작동하도록 만든다.//
-                    // 통제툴이 준비되지 않았으면 잠시후 다시 로그인을 하라는 창이 뜨고//
-                    // 대기 상태가 되도록 만들어 준다.//
-                    if (isSuccessFromServer == "true")
-                    {
-                        Debug.Log("Prefaring is " + isSuccessFromServer);
-                        // 대기 화면을 보여준다.//
-                        // 여기에 표시되어야 될 것은//
-                        // 기본적인 유저 이름(그리스전시회에서는 직책과 이름(trainee로 표기))
-                        ShowWin(0f, logIn_Success_Win);
-                        ShowWin(2f, userRole_State_Win);
-                    }
-                    else
-                    {
-                        Debug.Log("Prefaring is " + isSuccessFromServer);
-                        // 통제툴이 준비되지 않았기 때문에//
-                        // 통제툴이 준비되면 다시 로그인하라는//
-                        // 화면이 뜨고 아래 재로그인 버튼을 붙인다.//
-                        ShowWin(0f, logIn_Fail_Win);
-                        // 실패 화면이 뜨면 종료가 처리되도록 메소드를 실행한다.
-                        logIn_Fail_Win.GetComponent<QuitApp>().QuitWin();
-                    }
-                });
-            });
-
-            socket.On("startClient", (string data) =>
-            {
-                Debug.Log("Start Client::: "+data);
-                Debug.Log(data + "!!!!!!!");
-                Debug.Log(data + "!!!!!!!");
-                Debug.Log(data + "!!!!!!!");
-                Debug.Log(data + "!!!!!!!");
-                Debug.Log(data + "!!!!!!!");
-
-                var roleData = CleanupString(data).Split(',');
-                Debug.Log("roleData.Length: "+ roleData.Length);
-                for (int i = 0; i < roleData.Length; i++)
-                {
-                    Debug.Log("roleData[" + i + "]" + roleData[i]);
-
-                    if (roleData[i] != "" && roleData[i] != null)
-                    {
-                        ConstDataScript.userCharacters.Add(int.Parse(roleData[i]));
-                    }
-                }
-                Debug.Log("스트링에서 인트로 변화된 값");
-                foreach(var a in ConstDataScript.userCharacters) 
-                {
-                    Debug.Log(a);
-                }
-
-                var sNum = ConstDataScript.scenarioNum;
-
-                StartCoroutine(StartNextScene(sNum));
-                //UnityEngine.SceneManagement.SceneManager.LoadScene(sNum);
-            });
-
-            // sNum 참고.
-            // 1번: 화재.
-            // 2번: 퇴선.
-            // 3번: 밀폐구역.
-        }
-
-        socket.On("changeScenario",(string sNum) => {
-            sNum = sNum.Trim('"'); 
+        socket.On("changeScenario", (string sNum) =>
+        {
+            sNum = sNum.Trim('"');
             Debug.Log("실행될 시나리오가 변경된다. 변경 시나리오 :: " + sNum);
             Debug.Log("sNum Type: " + sNum.GetType());
             ConstDataScript.scenarioNum = int.Parse(sNum);
@@ -235,8 +216,11 @@ public class ClientLobbyServerConnect : MonoBehaviour
 
             // 유니티 제이슨으로 변경하여 데이터 변환.
             GetOtherUserMoveData oUserData
-            = JsonUtility.FromJson<GetOtherUserMoveData>(userData);
-            
+                = JsonUtility.FromJson<GetOtherUserMoveData>(userData);
+
+            Debug.Log("oTher User Data: "+oUserData);
+
+
             //if (oUserData.uid == idGotten)
             //{
             //    //Debug.Log("자신의 데이터 입니다.");
@@ -246,7 +230,7 @@ public class ClientLobbyServerConnect : MonoBehaviour
             // 먼저 최상의 캐릭터들 묶음을 찾고.
             GameObject charac = GameObject.Find("Characters");
             // 실제 캐릭터를 찾는다.
-            GameObject oUserChar = charac.transform.GetChild(int.Parse(oUserData.roleNum)-1).gameObject;
+            GameObject oUserChar = charac.transform.GetChild(int.Parse(oUserData.roleNum) - 1).gameObject;
             // 캐릭터에 붙어있는 전체를 컨트롤 하는 스크립트를 찾고.
             ICT_Engine.MoveOnPathScript pScript = oUserChar.GetComponent<ICT_Engine.MoveOnPathScript>();
             // 액션 넘버를 맞춰준다.
@@ -254,31 +238,44 @@ public class ClientLobbyServerConnect : MonoBehaviour
 
             // 액션넘버가 바뀐기록이 있으면 액션내용을.
             // 바꿔주고 인액션 전달을 해주는 함수를 실행하도록 해준다.
-            if (oUserData.isChangeActionNum =="true")
+            if (oUserData.isChangeActionNum.ToLower() == "true")
                 pScript.ChangeActionNumSendInAction();
 
             //if (oUserChar.transform.position.x != float.Parse(oUserData.pozX))
             //{
-                // 위치를 맞추고.
-                oUserChar.transform.position = new Vector3(float.Parse(oUserData.pozX),
+            // 위치를 맞추고.
+            oUserChar.transform.position = new Vector3(float.Parse(oUserData.pozX),
                                                  float.Parse(oUserData.pozY),
                                                   float.Parse(oUserData.pozZ));
             //}
             //if(oUserChar.transform.eulerAngles.y != float.Parse(oUserData.rotY))
             //{
-                //회전 값을 맞춘다.
-                oUserChar.transform.eulerAngles = new Vector3(0f,float.Parse(oUserData.rotY),0f);
+            //회전 값을 맞춘다.
+            oUserChar.transform.eulerAngles = new Vector3(0f, float.Parse(oUserData.rotY), 0f);
             //}
 
             Animator playerAnimator;
             playerAnimator = oUserChar.transform.GetChild(0).GetComponent<Animator>();
-            //playerAnimator.Play("Walking_01");
-            playerAnimator.Play(oUserData.chMotion);
+
+
+            //2019년 5월 13일 추가. 워킹이 가능하게 해주는 코드.
+            // 움직임이(isWalk) true이면 워킹을 해주고 아니면 현재 캐릭터의 기본 동작을 수행한다.
+            Debug.Log("다른 캐릭터의 움직임 여부를 확인한다.");
+            Debug.Log("Is Other Walk: " + oUserData.isWalk);
+            if (oUserData.isWalk.ToLower() == "true")
+            {
+                Debug.Log("걷는 것으로 판명됨");
+                playerAnimator.Play("Walking_01");
+            }
+            else
+            {
+                playerAnimator.Play(oUserData.chMotion);
+            }
         });
 
         socket.On("quitApp", (string data) =>
         {
-            Debug.Log("Quit App!!!!!!!"+ data);
+            Debug.Log("Quit App!!!!!!!" + data);
             ShowWin(0f, logIn_Fail_Win);
             logIn_Fail_Win.GetComponent<QuitApp>().QuitWin();
         });
@@ -319,7 +316,7 @@ public class ClientLobbyServerConnect : MonoBehaviour
     public void Alarmclear(SendEnd sEnd)
     {
         string data = JsonUtility.ToJson(sEnd);
-        if(socket != null)
+        if (socket != null)
         {
             socket.EmitJson("alarmclear", @data);
         }
@@ -327,7 +324,7 @@ public class ClientLobbyServerConnect : MonoBehaviour
 
     IEnumerator StartNextScene(int sNum)
     {
-        Debug.Log("다음씬 준비: "+sNum);
+        Debug.Log("다음씬 준비: " + sNum);
         yield return new WaitForSeconds(1f);
         UnityEngine.SceneManagement.SceneManager.LoadScene(sNum);
     }
@@ -353,7 +350,7 @@ public class ClientLobbyServerConnect : MonoBehaviour
         StartCoroutine(ShowWinIE(t, win));
     }
 
-   IEnumerator ShowWinIE(float t, GameObject win)
+    IEnumerator ShowWinIE(float t, GameObject win)
     {
         yield return new WaitForSeconds(t);
         foreach (var winL in winList)

@@ -9350,9 +9350,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1878a6202228dfa4593addc06d03f082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  socket: {fileID: 0}
   idGotten: 
   dateFromServer: 
-  serverURL: http://localost
+  serverURL:
+  - http://192.168.0.1
+  - http://192.168.0.2
+  - http://192.168.0.3
+  - http://192.168.0.4
+  - http://192.168.0.5
+  - http://localhost
   urlInfoPath: c:\InnoIctUrl\url.txt
   show_Url_win: {fileID: 0}
   logIning_Win: {fileID: 919419798}
@@ -9360,6 +9367,7 @@ MonoBehaviour:
   userRole_State_Win: {fileID: 2110987041}
   logIn_Fail_Win: {fileID: 1993519534}
   LogText: {fileID: 0}
+  urlQueue: 0
 --- !u!1 &829668014
 GameObject:
   m_ObjectHideFlags: 0

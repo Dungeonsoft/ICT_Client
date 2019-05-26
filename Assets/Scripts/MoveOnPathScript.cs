@@ -348,27 +348,56 @@ namespace ICT_Engine
         }
 
 
-        public float sendDataTimeInterval = 0.1f; // 0.1초에한번씩 데이터를 서버로 보냄.
-        public float sendDataDistInterval = 0.1f; // 0.1m 이상 이동시 데이터를 서버로 보냄.
+        float sendDataTimeInterval = 0.05f;   // 0.1초에한번씩 데이터를 서버로 보냄.
+        public float sendDataDistInterval = 0.1f;   // 0.1m 이상 이동시 데이터를 서버로 보냄.
+        
+        // 2019년 5월 13일 추가. 현재회전이 안됨. 이동시 워킹이 작동하지 않고 아이들이 작동함.
+        public float sendDataRotInterval = 1.0f;    // 5도 이상 회전시 데이터를 보냄.
 
         int oldActionNum = 0; // 액션 넘버가 변경되었는지 확인하기 위해 최근의 액션넘버를 저장하여 놓는다.
         float nextSendDataTime = 0; // 다음 데이터를 보내는 시간을 저장한다.
         Vector3 oldPosition = Vector3.zero; // 데이터를 보내기 위한 최소거리를 확인하기 위해 직전 캐릭터 위치를 저장한다.
+        
+        // 2019년 5월 13일 추가.
+        Vector3 oldRot = Vector3.zero; // 데이터를 보내기 위한 최소회전을 확인하기 위해 직전 캐릭터 회전값을 저장한다.
+
+        //지정한 최소값이 넘었는지를 판별하는데 사용하는 변수 세개를 선언한다.
+        bool isOverTime = false;
+        bool isOverDist = false;
+        bool isOverRot = false;
 
         void sendChDataToServer1()
         {
             //먼저최초에 거리를 한번구한다.(기본)
             float dist = Vector3.Distance(oldPosition, transform.position);
+            float rot = Mathf.Abs(oldRot.y - mainCam.eulerAngles.y);
 
-            if (nextSendDataTime <= Time.time && sendDataDistInterval <= dist) //타임인터벌과거리인터벌의 조건이 맞을때
+            
+
+            // 2019년 5월 13일 수정한 IF 조건문 내용.
+            // 여기 조건문에서 이동,회전, 시간을 측정하여 서버에 데이터를 보낼지 여부를 결정한다.
+            isOverTime = (nextSendDataTime <= Time.time) ? true:false;
+            isOverDist = (sendDataDistInterval <= dist) ? true : false;
+            isOverRot = (sendDataRotInterval <= rot) ? true : false;
+
+            //if (isOverRot == true) {
+            //    Debug.Log("--------Rot True--------|| ROT || "+ rot);
+            //    // 회전값이 트루면 그 값이 얼마나 되는지 여기서 체크한다.
+            //}
+
+            if (isOverTime && (isOverDist || isOverRot))//타임인터벌과거리인터벌의 조건이 맞을때
             {
                 //Debug.Log("N1 Time: " + nextSendDataTime);
                 //Debug.Log("N2 Time: " + Time.time);
-                nextSendDataTime = Time.time+ sendDataTimeInterval;
+                nextSendDataTime = Time.time + sendDataTimeInterval;
                 oldPosition = transform.position;
+                
+                // 2019년 5월 13일 추가. 현재의 회전값을 저장해준다.
+                oldRot = GameObject.FindWithTag("MainCamera").transform.eulerAngles;
                 sendChDataToServer2();
                 return;
             }
+
             if (oldActionNum < actionNum) // 액션넘버가 숫자가 하나 올라가거나.
             {
                 oldActionNum = actionNum;
@@ -398,11 +427,21 @@ namespace ICT_Engine
                 actionNum = actionNum.ToString(),
                 roleNum = ConstDataScript.roleNum.ToString(),
                 uid = ConstDataScript.uid,
-                isChangeActionNum = isChangeActionNum.ToString()
+                isChangeActionNum = isChangeActionNum.ToString(),
+                isWalk = isOverDist.ToString()
             };
+
+            //Debug.Log("otherData-보내는 데이터- 회전값 : " + otherData.rotY);
+            //Debug.Log("otherData-보내는 데이터- 움직임여부1 : " + isOverDist);
+            //Debug.Log("otherData-보내는 데이터- 움직임여부2 : " + otherData.isWalk);
 
             // 액션이 변경되었다는 것을 알려줬으니 다시 false로 변경한다.
             isChangeActionNum = false;
+
+            // 움직임이 있었다는 것을 알려줬으니 다시 false로 변경한다.
+            isOverTime = false;
+            isOverDist = false;
+            isOverRot = false;
 
             //클라이언트 로비 서버 커넥트 스크립트를 통하여 데이터를 서버로 보낸다.
             // 1. 먼저 스크립트가 붙어 있는 오브젝트를 찾고.
