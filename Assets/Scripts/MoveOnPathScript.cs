@@ -400,15 +400,23 @@ namespace ICT_Engine
 
             if (oldActionNum < actionNum) // 액션넘버가 숫자가 하나 올라가거나.
             {
+                if (this.name == "010_CrewA")
+                {
+                    Debug.Log("액션 넘버가 올라감. 그래서 서버에 정보를 보낸다.");
+                }
                 oldActionNum = actionNum;
+                //임시 데이터. 액션 넘버가 올라감에 따라 정보를 보내고 그 정보가 정확히 전달되는지 확인하기 위해 임시르 들어가는 bool 변수.
+                isChangeActionNum = true;
+                fromAddAction = true;
                 sendChDataToServer2();
                 return;
             }
         }
+        bool fromAddAction = false;
 
         void sendChDataToServer2()
         {
-            Debug.Log("서버로 데이터를 보낸다::: "+ Time.time);
+            //Debug.Log("서버로 데이터를 보낸다::: "+ Time.time);
             //여기서 움직임의 데이터를 보낸다.//
             //보내는 이름은 "userPozRot"//
             //이부분에서 데이터가 초당 10번정도만 전달되도록 수정한다.// 코드는 수정.
@@ -431,12 +439,30 @@ namespace ICT_Engine
                 isWalk = isOverDist.ToString()
             };
 
-            //Debug.Log("otherData-보내는 데이터- 회전값 : " + otherData.rotY);
-            //Debug.Log("otherData-보내는 데이터- 움직임여부1 : " + isOverDist);
-            //Debug.Log("otherData-보내는 데이터- 움직임여부2 : " + otherData.isWalk);
+            //액션넘버가 바뀔 때 제대로 정보가 전달되는지 확인하기 위해 아래 조건문을 삽입.
+            //테스트용 코드이니 차후 코드가 정리되면 지워도 됨.
+            if (fromAddAction)
+            {
+                if (this.name == "010_CrewA" && isChangeActionNum == true)
+                {
+                    Debug.Log(":::010_CrewA Action Number is " + actionNum);
+                    Debug.Log(":::010_CrewA_otherData_isChangeActionNum is " + otherData.isChangeActionNum);
+                }
 
-            // 액션이 변경되었다는 것을 알려줬으니 다시 false로 변경한다.
-            isChangeActionNum = false;
+                if (this.name == "010_CrewA" && isChangeActionNum == false)
+                {
+                    Debug.Log("is Action Number의 값이 올라가지 않고 있다.");
+                }
+                fromAddAction = false;
+            }
+            
+
+                //Debug.Log("otherData-보내는 데이터- 회전값 : " + otherData.rotY);
+                //Debug.Log("otherData-보내는 데이터- 움직임여부1 : " + isOverDist);
+                //Debug.Log("otherData-보내는 데이터- 움직임여부2 : " + otherData.isWalk);
+
+                // 액션이 변경되었다는 것을 알려줬으니 다시 false로 변경한다.
+                isChangeActionNum = false;
 
             // 움직임이 있었다는 것을 알려줬으니 다시 false로 변경한다.
             isOverTime = false;
@@ -840,10 +866,10 @@ namespace ICT_Engine
                     int saNum = inAction[i].inputActionNum;
                     //값이 false여야만 다른 캐릭터가 움직인다//
                     inAction[i].otherSA.setAction[saNum].isInputActionB = false;
-                    //Debug.Log(
-                    //    "Ch Name: " + inAction[i].otherSA.transform.name +
-                    //    " __ isInputActionB: " + inAction[i].otherSA.setAction[saNum].isInputActionB
-                    //    );
+                    Debug.Log(
+                        "Ch Name: " + inAction[i].otherSA.transform.name +
+                        " __ isInputActionB: " + inAction[i].otherSA.setAction[saNum].isInputActionB
+                        );
                 }
         }
 
@@ -990,11 +1016,11 @@ namespace ICT_Engine
 
             isSoveque = true;
 
-            Debug.Log("Answer: " + num);
-            if (sa.correct[num] == true)
-                Debug.Log("Correct!" + " ::: " + acNum);
-            else
-                Debug.Log("Rong!" + " ::: " + acNum);
+            //Debug.Log("Answer: " + num);
+            //if (sa.correct[num] == true)
+                //Debug.Log("Correct!" + " ::: " + acNum);
+            //else
+                //Debug.Log("Rong!" + " ::: " + acNum);
 
             wlScene.qPanel.SetActive(false);
             wlScene.uiBG.SetActive(false);
@@ -1300,8 +1326,8 @@ namespace ICT_Engine
             {
                 if (this.name.Contains("002"))
                 {
-                    Debug.Log("currentWayPointID + 1 === "+ currentWayPointID + 1);
-                    Debug.Log("pointCount ::: "+ pointCount);
+                    //Debug.Log("currentWayPointID + 1 === "+ currentWayPointID + 1);
+                    //Debug.Log("pointCount ::: "+ pointCount);
 
                 }
 
@@ -1330,7 +1356,7 @@ namespace ICT_Engine
                 {
                     // 아래 조건문은 확인용.
                     // 테스트가 끝나면 삭제.
-                    if (this.name.Contains("002")) Debug.Log(" ::: moveLerpVal 값3: "+ moveLerpVal);
+                    //if (this.name.Contains("002")) Debug.Log(" ::: moveLerpVal 값3: "+ moveLerpVal);
 
                     moveLerpVal = 0;
                     startPos = transform.position;
@@ -1339,7 +1365,7 @@ namespace ICT_Engine
                     
                     // 아래 조건문은 확인용.
                     // 테스트가 끝나면 삭제.
-                    if (this.name.Contains("002")) Debug.Log("웨이포인트값 1 증가");
+                    //if (this.name.Contains("002")) Debug.Log("웨이포인트값 1 증가");
 
                     nextPos = sa.movePath.pathObjs[currentWayPointID].position;
                     dist = 0;

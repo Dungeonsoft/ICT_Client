@@ -183,9 +183,9 @@ namespace ICT_Engine
             {
                 // Content 길이가 더 길경우
                 // Content의 Pos Y의 값을 조정한다.
-                Debug.Log("cr.height: " + cr.height);
+                //Debug.Log("cr.height: " + cr.height);
                 newPosY = (contHeight / -2)+ viewHeight/2;
-                Debug.Log("newPosY: " + newPosY);
+                //Debug.Log("newPosY: " + newPosY);
 
                 // 길이가 더 기므로 isRolling 값을 true로 변경한다.
                 // 아래 코드에서 이 변수값을 활용해서 롤링을 할지 말지를 결정하는 코드가 작성된다.

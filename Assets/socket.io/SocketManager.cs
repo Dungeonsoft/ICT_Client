@@ -130,7 +130,7 @@ namespace socket.io {
                           ClientLobbyServerConnect clsc = GameObject.Find("ControlSystem").GetComponent<ClientLobbyServerConnect>();
                           if (clsc.urlQueue < clsc.serverURL.Length)
                           {
-                              Debug.Log("Reconnect 01");
+                              Debug.LogWarning("Reconnect 01");
                               clsc.urlQueue++;
                               clsc.socket.CancelInvoke();
                               clsc.socket = null;
@@ -140,6 +140,8 @@ namespace socket.io {
 
                       }
                       else if (e is WWWErrorException) {
+                          Debug.Log("Time Out: " + TimeOut);
+
                           Debug.LogErrorFormat(
                               "socket.io => {0} got WWW error: {1}", 
                               _socketInit.Socket.gameObject.name, 
@@ -147,6 +149,8 @@ namespace socket.io {
                               );
                       }
                       else {
+                          Debug.Log("Time Out: " + TimeOut);
+
                           Debug.LogErrorFormat(
                               "socket.io => {0} got an unknown error: {1}", 
                               _socketInit.Socket.gameObject.name, 
@@ -156,7 +160,7 @@ namespace socket.io {
                           ClientLobbyServerConnect clsc = GameObject.Find("ControlSystem").GetComponent<ClientLobbyServerConnect>();
                           if (clsc.urlQueue < clsc.serverURL.Length)
                           {
-                              Debug.Log("Reconnect 02");
+                              Debug.LogWarning("Reconnect 02");
                               clsc.urlQueue++;
                               clsc.socket.CancelInvoke();
                               clsc.socket = null;

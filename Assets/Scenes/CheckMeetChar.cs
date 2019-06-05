@@ -17,7 +17,7 @@ public class CheckMeetChar : MonoBehaviour
 
         if (mscript.name == transform.parent.name)
         {
-            Debug.Log("End Action1");
+            //Debug.Log("End Action1");
             mscript.EndAction();
         }
     }

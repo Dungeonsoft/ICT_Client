@@ -22,8 +22,8 @@ public class ClickProp : MonoBehaviour {
             //Debug.Log("Name: " + this.name);
 
             GetActCharacter().GetComponent<ICT_Engine.MoveOnPathScript>().TriggerEnterObj = this.gameObject;
-            Debug.Log("여기옴1");
-            Debug.Log("여기옴2");
+            //Debug.Log("여기옴1");
+            //Debug.Log("여기옴2");
         }
         else
         {

@@ -1,4 +1,4 @@
-ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,video,ActionEnum
+﻿ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubble2,NChMotion,StandingPosition,MovePath,InAction1,InAction2,IsMeA,IsMeB,IsMeC,IsWaterOn,IsWaterOff,video,ActionEnum
 0,Batterycharge_01|Batterycharge_02|Batterycharge_03|Batterycharge_04|Idle_01,2,"""true""",What action would you like to take?,Proceed on deck maintenance work|Check the situation in navigation bridge|Quickly move to the muster station,2,"""false""",Idle_01,Point001,,,,"""false""","""false""","""false""","""false""","""false""",,a00
 1,Idle_01,1,"""false""",Where is the fire place?,Accommodation|Cargo hold/tanks|Engine room,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,a01
 2,Writing_01|Idle_01,1,"""false""",What was the kind of fire?,A class general fire|B class oil fire|C class electric fire,1,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,a02
@@ -8,8 +8,8 @@ ActionNumber,FChMotion,WaitTime01,TextBubble1,Question,Answers,Correct,TextBubbl
 6,Tranceiver_01|Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,a06
 7,Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,a07
 8,Tranceiver_01|Idle_01,2,"""true""",What is the role of boundary cooling team?,Oxygen blocking into the engine compartment|Cooling in the fire zone|The role is the same with fire-fighting hose team,2,"""false""",Idle_01,,,,,"""false""","""false""","""false""","""false""","""false""",,a08
-9,Tranceiver_01|Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,011|a02,"""true""","""false""","""false""","""false""","""false""",,a09
-10,Tranceiver_01|Idle_01,2,"""true""",,,,"""false""",Walking_01,,Path002,011|a03,,"""false""","""false""","""false""","""false""","""false""",,a10
+9,Tranceiver_01|Idle_01,2,"""true""",,,,"""false""",Idle_01,,,,,"""true""","""false""","""false""","""false""","""false""",,a09
+10,Tranceiver_01|Idle_01,2,"""true""",,,,"""false""",Walking_01,,Path002,011|a02,,"""false""","""false""","""false""","""false""","""false""",,a10
 11,Idle_01,10,"""false""",,,,"""false""",Idle_01,,,,,"""true""","""false""","""false""","""true""","""false""",,a11
 12,Idle_01,2,"""true""",Who operate the fixed CO2 fire-fighting system?,Captain.|Chief officer|Chief engineer,2,"""false""",Walking_01,,Path003,002|a10|011|a05,,"""false""","""false""","""false""","""true""","""false""",,a12
 13,Tranceiver_01|Idle_01,2,"""true""",Why should all personnel be evacuated when using a fixed CO2 fire extinguisher?,Risk of loss of lives due to engine room cooling|Because it is the last method for fire-fighting|Some crew to shut the ventilator need to remain in engine room,0,"""false""",Idle_01,,,,,"""false""","""true""","""false""","""false""","""true""",,a13

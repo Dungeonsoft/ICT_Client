@@ -114,7 +114,7 @@ namespace socket.io {
 
                 else
                 {
-                    Debug.Log("서버가 연결된 후 Ping을 보는 부분:");
+                    //Debug.Log("서버가 연결된 후 Ping을 보는 부분:");
                     Debug.LogFormat("socket.io => {0} pong~", WebSocket.Url.ToString());
                 }
             }

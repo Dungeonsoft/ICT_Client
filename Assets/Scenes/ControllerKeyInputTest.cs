@@ -46,7 +46,7 @@ public class ControllerKeyInputTest : MonoBehaviour {
     {
         if (obj.state.touchpadPosition.y != 0f)
         {
-            Debug.Log("4 touchpadPosition::: " + obj.state.touchpadPosition);
+            //Debug.Log("4 touchpadPosition::: " + obj.state.touchpadPosition);
             //if (obj.state.touchpadPosition.y > 0)
             //    touchPadInput = 1f;
             //else
@@ -67,7 +67,7 @@ public class ControllerKeyInputTest : MonoBehaviour {
         }
         if (obj.state.selectPressedAmount != 0f)
         {
-            Debug.Log("4 selectPressedAmount(Trigger)::: " + obj.state.selectPressedAmount);
+            //Debug.Log("4 selectPressedAmount(Trigger)::: " + obj.state.selectPressedAmount);
             OnSelect();
         }
 
@@ -80,23 +80,23 @@ public class ControllerKeyInputTest : MonoBehaviour {
 
     void SourceReleased(InteractionSourceReleasedEventArgs obj)
     {
-        Debug.Log("5");
+        //Debug.Log("5");
         if (obj.state.touchpadTouched == false)
         {
-            Debug.Log("isTouchPad false");
+            //Debug.Log("isTouchPad false");
 
             touchPadInput = 0f;
             isTouchPad = false;
         }
         if (obj.state.grasped == false)
         {
-            Debug.Log("5 grasped::: " + obj.state.grasped);
+            //Debug.Log("5 grasped::: " + obj.state.grasped);
         }
         if (obj.state.selectPressed == false)
         {
             isTouchPad = false;
 
-            Debug.Log("5 selectPressed(Trigger)::: " + obj.state.selectPressed);
+            //Debug.Log("5 selectPressed(Trigger)::: " + obj.state.selectPressed);
         }
         // Release
     }
@@ -109,7 +109,7 @@ public class ControllerKeyInputTest : MonoBehaviour {
 
         if (GameObject.Find("TextBubble01") || GameObject.Find("TextBubble02") || GameObject.Find("QuestionPanel"))
         {
-            Debug.Log("UI 인터페이스가 활성화 되어있습니다.");
+            //Debug.Log("UI 인터페이스가 활성화 되어있습니다.");
             return;
         }
 
@@ -238,7 +238,7 @@ public class ControllerKeyInputTest : MonoBehaviour {
     IEnumerator AfterMethod(float waitTime, GameObject prop)
     {
         yield return new WaitForSeconds(waitTime);
-        Debug.Log("!!!!델리게이트 액션 실행!!!!!!");
+        //Debug.Log("!!!!델리게이트 액션 실행!!!!!!");
         //prop.SetActive(false);
         uAction();
         yield return null;

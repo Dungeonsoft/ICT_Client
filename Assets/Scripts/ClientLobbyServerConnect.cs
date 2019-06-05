@@ -69,15 +69,17 @@ public class ClientLobbyServerConnect : MonoBehaviour
         Debug.Log("@@@@@@@@ Server Connecting Start!!!");
         if (socket == null)
         {
-            Debug.Log("@@@@@@@@ Socket Is NULL!!!" + serverURL[0]);
+            Debug.Log("@@@@@@@@ Socket Is NULL!!!" + serverURL[urlQueue]);
             // 소켓은 주어진 주소를 기반으로 연결한다.(접속시도)
             //socket = Socket.Connect(serverURL);
             try
             {
+                Debug.Log("Try");
                 socket = Socket.Connect(serverURL[urlQueue]);
             }
             catch (Exception e)
             {
+                Debug.Log("Catch");
                 Debug.LogException(e);
             }
 
@@ -169,10 +171,10 @@ public class ClientLobbyServerConnect : MonoBehaviour
                     ConstDataScript.userCharacters.Add(int.Parse(roleData[i]));
                 }
             }
-            Debug.Log("스트링에서 인트로 변화된 값");
+            //Debug.Log("스트링에서 인트로 변화된 값");
             foreach (var a in ConstDataScript.userCharacters)
             {
-                Debug.Log(a);
+                //Debug.Log(a);
             }
 
             var sNum = ConstDataScript.scenarioNum;
